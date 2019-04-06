@@ -3,8 +3,8 @@
 //
 
 #include "IPickupable.h"
-#include "../../GlobalsDeclarations.hpp"
-#include "../../collisions/Collisions.hpp"
+#include "../collisions/Collisions.hpp"
+#include "../globals/GlobalsDeclarations.hpp"
 
 //for opening chests and crates
 bool IPickupable::check_if_can_be_opened() {

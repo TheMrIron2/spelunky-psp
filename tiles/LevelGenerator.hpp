@@ -7,12 +7,12 @@
 
 #include "Level.hpp"
 
-void generate_new_level_layout(Level *level);
+void generate_new_level_layout();
 
 void obtain_new_direction(int curr_x, Direction &direction);
 
-void place_an_altar(Level *level);
+void place_an_altar();
 
-void place_a_shop(Level *level);
+void place_a_shop();
 
 #endif //SPELUNKYDS_LEVEL_LAYOUT_H

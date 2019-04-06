@@ -17,6 +17,8 @@ include_directories(${PSPDEV}/psp/sdk/include)
 # clion won't scan files without it.
 add_executable(spelunkypsp
         main.cpp
+        GameLoop.cpp
+        GameLoop.hpp
         utils/Consts.h tiles/MapTileType.h
         rooms/AltarRoom.hpp rooms/ClosedRooms.hpp rooms/EntranceRooms.hpp rooms/ExitRooms.hpp
         rooms/LeftRightDownRooms.hpp rooms/LeftRightRooms.hpp rooms/LeftRightUpRooms.hpp rooms/RoomType.hpp
@@ -32,6 +34,8 @@ add_executable(spelunkypsp
         tiles/LevelRenderingUtils.hpp
         tiles/LevelGenerator.cpp
         tiles/LevelGenerator.hpp
+        tiles/PopulatingUtils.cpp
+        tiles/PopulatingUtils.hpp
         input/InputHandler.h
         input/InputHandler.cpp
         camera/Camera.cpp
@@ -42,4 +46,151 @@ add_executable(spelunkypsp
         time/TimeUtils.cpp
         sound/SoundUtils.cpp
         sound/SoundUtils.hpp
+        console/ConsoleUtils.hpp
+        collisions/CollisionsUtils.cpp
+        collisions/CollisionsUtils.h
+        collisions/Collisions.hpp
+        collisions/Collisions.cpp
+        _common/Orientation.hpp
+        main_dude/GameState.cpp
+        main_dude/GameState.hpp
+        main_dude/MainDude.hpp
+        main_dude/MainDude.cpp
+        main_dude/Whip.hpp
+        main_dude/Whip.cpp
+        creatures/Bullet.hpp
+        creatures/Damsel.hpp
+        creatures/Skeleton.cpp
+        creatures/Spikes.cpp
+        creatures/Boulder.cpp
+        creatures/Spikes.h
+        creatures/_BaseCreature.cpp
+        creatures/Caveman.cpp
+        creatures/Shopkeeper.hpp
+        creatures/Damsel.cpp
+        creatures/Boulder.h
+        creatures/CreatureType.hpp
+        creatures/Skeleton.hpp
+        creatures/Shopkeeper.cpp
+        creatures/_BaseCreature.h
+        creatures/Bat.hpp
+        creatures/Caveman.hpp
+        creatures/Snake.cpp
+        creatures/Bat.cpp
+        creatures/Snake.hpp
+        creatures/Bullet.cpp
+        creatures/Spider.cpp
+        creatures/Spider.hpp
+        memory/SpriteInfo.cpp
+        memory/SpriteInfo.h
+        memory/SpriteUtils.cpp
+        memory/OamManager.hpp
+        memory/OamUtils.hpp
+        memory/SpriteUtils.hpp
+        memory/OamUtils.cpp
+        memory/SpritesheetType.hpp
+        memory/OamManager.cpp
+        memory/OamType.hpp
+        _interfaces/IBase.cpp
+        _interfaces/IRenderable.h
+        _interfaces/ShoppingObject.h
+        _interfaces/ShoppingObject.cpp
+        _interfaces/IPickupable.cpp
+        _interfaces/IRenderable.cpp
+        _interfaces/ICollidable.h
+        _interfaces/IBase.h
+        _interfaces/ICollidable.cpp
+        _interfaces/IPickupable.h
+        items/Rock.hpp
+        items/Mitt.hpp
+        items/Shotgun.cpp
+        items/Mitt.cpp
+        items/Rope.hpp
+        items/GoldenIdol.h
+        items/Compass.hpp
+        items/Arrow.cpp
+        items/Chest.hpp
+        items/_ItemsUtils.hpp
+        items/Crate.cpp
+        items/SpikeShoes.cpp
+        items/Rope.cpp
+        items/SpringShoes.cpp
+        items/Bomb.hpp
+        items/_BaseItem.cpp
+        items/SpringShoes.hpp
+        items/Crate.hpp
+        items/Compass.cpp
+        items/_BaseItem.h
+        items/Cape.hpp
+        items/_ItemsUtils.cpp
+        items/Jar.hpp
+        items/Skull.hpp
+        items/Jar.cpp
+        items/Cape.cpp
+        items/Shotgun.hpp
+        items/GoldenIdol.cpp
+        items/Glove.hpp
+        items/SpikeShoes.hpp
+        items/Arrow.hpp
+        items/Pistol.cpp
+        items/Pistol.hpp
+        items/Bomb.cpp
+        items/Jetpack.hpp
+        items/Chest.cpp
+        items/Glove.cpp
+        items/Jetpack.cpp
+        items/Rock.cpp
+        items/Skull.cpp
+        decorations/GotCollectible.hpp
+        decorations/Lamp.h
+        decorations/RockSign.h
+        decorations/SpelunkyTitle.cpp
+        decorations/Explosion.h
+        decorations/Explosion.cpp
+        decorations/RopeElement.hpp
+        decorations/Copyrights.cpp
+        decorations/ArchSign.cpp
+        decorations/ArrowTrap.cpp
+        decorations/SpelunkyTitle.h
+        decorations/RockSign.cpp
+        decorations/Smooch.hpp
+        decorations/ArchSign.h
+        decorations/ShoppingIcon.cpp
+        decorations/ShoppingIcon.h
+        decorations/Copyrights.h
+        decorations/ArrowTrap.h
+        decorations/RopeElement.cpp
+        decorations/_BaseDecoration.h
+        decorations/Blast.cpp
+        decorations/Blast.hpp
+        decorations/Smooch.cpp
+        decorations/GotCollectible.cpp
+        decorations/Lamp.cpp
+        animations/FlameElement.hpp
+        animations/BloodElement.hpp
+        animations/Blood.hpp
+        animations/Flame.hpp
+        animations/Bone.cpp
+        animations/FallPoof.hpp
+        animations/FakeSkeleton.cpp
+        animations/Flame.cpp
+        animations/FakeSkeleton.hpp
+        animations/BloodElement.cpp
+        animations/FallPoof.cpp
+        animations/FlameElement.cpp
+        animations/Bone.hpp
+        animations/Blood.cpp
+        hud/Hud.cpp
+        hud/Hud.hpp
+        treasures/RubyBig.cpp
+        treasures/_BaseTreasure.cpp
+        treasures/RubySmall.cpp
+        treasures/TripleGoldbar.h
+        treasures/TripleGoldbar.cpp
+        treasures/RubySmall.h
+        treasures/RubyBig.h
+        treasures/_BaseTreasure.h
+        treasures/SingleGoldbar.hpp
+        treasures/SingleGoldbar.cpp
+
         )

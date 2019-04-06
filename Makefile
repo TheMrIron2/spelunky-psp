@@ -1,11 +1,9 @@
 TARGET = sprite
 
-SOURCES		:=	. camera common input rooms tiles time utils sound
+SOURCES		:=	. camera common input rooms tiles time utils sound console collisions _common main_dude creatures memory _interfaces items decorations animations hud treasures globals
 CFILES		:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.c))
 CPPFILES	:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.cpp))
 PRECOMPILED	:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.o))
-
-#OBJS := main.o gfxcavebg.o tiles/Level.o
 
 OBJS := $(addsuffix .o,$(BINFILES)) \
 					$(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(PRECOMPILED:.c=.o)

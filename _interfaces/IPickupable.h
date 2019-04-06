@@ -5,8 +5,10 @@
 #ifndef SPELUNKYDS_IPICKUPABLE_H
 #define SPELUNKYDS_IPICKUPABLE_H
 
+#include <psptypes.h>
 #include "IRenderable.h"
 #include "ICollidable.h"
+#include "../memory/SpritesheetType.hpp"
 
 class IPickupable : public ICollidable, public IRenderable {
 

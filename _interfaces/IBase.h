@@ -6,7 +6,6 @@
 #define SPELUNKYDS_IBASE_H
 
 #include <stdio.h>
-#include <nds/interrupts.h>
 
 // Base delivers basic functionality needed by every creature/item/decoration etc.
 class IBase {

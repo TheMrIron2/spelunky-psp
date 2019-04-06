@@ -17,3 +17,4 @@ int floor_div(int a, int b) {
     return r.quot;
 }
 
+void sectorize_map(){};

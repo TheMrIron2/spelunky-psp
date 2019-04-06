@@ -81,9 +81,33 @@ CMakeFiles/spelunkypsp.dir/main.cpp.o.provides: CMakeFiles/spelunkypsp.dir/main.
 CMakeFiles/spelunkypsp.dir/main.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/main.cpp.o
 
 
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o: ../GameLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o -c /home/dbeef/spelunky-psp/GameLoop.cpp
+
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/GameLoop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/GameLoop.cpp > CMakeFiles/spelunkypsp.dir/GameLoop.cpp.i
+
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/GameLoop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/GameLoop.cpp -o CMakeFiles/spelunkypsp.dir/GameLoop.cpp.s
+
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.provides: CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o
+
+
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o: ../tiles/Level.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o -c /home/dbeef/spelunky-psp/tiles/Level.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o.provides.build: CMakeFiles/spelunky
 
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o: ../tiles/MapTile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o -c /home/dbeef/spelunky-psp/tiles/MapTile.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o.provides.build: CMakeFiles/spelun
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o: ../tiles/LevelRenderingUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o -c /home/dbeef/spelunky-psp/tiles/LevelRenderingUtils.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o.provides.build: CMake
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o: ../tiles/LevelGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o -c /home/dbeef/spelunky-psp/tiles/LevelGenerator.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.i: cmake_force
@@ -177,9 +201,33 @@ CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o.provides: CMakeFiles/spelu
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o
 
 
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o: ../tiles/PopulatingUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o -c /home/dbeef/spelunky-psp/tiles/PopulatingUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/tiles/PopulatingUtils.cpp > CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/tiles/PopulatingUtils.cpp -o CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o
+
+
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o: ../input/InputHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o -c /home/dbeef/spelunky-psp/input/InputHandler.cpp
 
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.i: cmake_force
@@ -203,7 +251,7 @@ CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o.provides.build: CMakeFiles/s
 
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o: ../camera/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o -c /home/dbeef/spelunky-psp/camera/Camera.cpp
 
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.i: cmake_force
@@ -227,7 +275,7 @@ CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o.provides.build: CMakeFiles/spelun
 
 CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o: ../time/TimeUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o -c /home/dbeef/spelunky-psp/time/TimeUtils.cpp
 
 CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.i: cmake_force
@@ -251,7 +299,7 @@ CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.provides.build: CMakeFiles/spelu
 
 CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o: ../sound/SoundUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o -c /home/dbeef/spelunky-psp/sound/SoundUtils.cpp
 
 CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.i: cmake_force
@@ -273,33 +321,1857 @@ CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o.provides: CMakeFiles/spelunkyp
 CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o
 
 
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o: ../collisions/CollisionsUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o -c /home/dbeef/spelunky-psp/collisions/CollisionsUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/collisions/CollisionsUtils.cpp > CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/collisions/CollisionsUtils.cpp -o CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o: ../collisions/Collisions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o -c /home/dbeef/spelunky-psp/collisions/Collisions.cpp
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/collisions/Collisions.cpp > CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.i
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/collisions/Collisions.cpp -o CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.s
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.provides: CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o: ../main_dude/GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o -c /home/dbeef/spelunky-psp/main_dude/GameState.cpp
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/main_dude/GameState.cpp > CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.i
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/main_dude/GameState.cpp -o CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.s
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.provides: CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o: ../main_dude/MainDude.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o -c /home/dbeef/spelunky-psp/main_dude/MainDude.cpp
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/main_dude/MainDude.cpp > CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.i
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/main_dude/MainDude.cpp -o CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.s
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.provides: CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o: ../main_dude/Whip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o -c /home/dbeef/spelunky-psp/main_dude/Whip.cpp
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/main_dude/Whip.cpp > CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.i
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/main_dude/Whip.cpp -o CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.s
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.provides: CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o: ../creatures/Skeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o -c /home/dbeef/spelunky-psp/creatures/Skeleton.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Skeleton.cpp > CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Skeleton.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o: ../creatures/Spikes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o -c /home/dbeef/spelunky-psp/creatures/Spikes.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Spikes.cpp > CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Spikes.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o: ../creatures/Boulder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o -c /home/dbeef/spelunky-psp/creatures/Boulder.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Boulder.cpp > CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Boulder.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o: ../creatures/_BaseCreature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o -c /home/dbeef/spelunky-psp/creatures/_BaseCreature.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/_BaseCreature.cpp > CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/_BaseCreature.cpp -o CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o: ../creatures/Caveman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o -c /home/dbeef/spelunky-psp/creatures/Caveman.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Caveman.cpp > CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Caveman.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o: ../creatures/Damsel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o -c /home/dbeef/spelunky-psp/creatures/Damsel.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Damsel.cpp > CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Damsel.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o: ../creatures/Shopkeeper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o -c /home/dbeef/spelunky-psp/creatures/Shopkeeper.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Shopkeeper.cpp > CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Shopkeeper.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o: ../creatures/Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o -c /home/dbeef/spelunky-psp/creatures/Snake.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Snake.cpp > CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Snake.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o: ../creatures/Bat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o -c /home/dbeef/spelunky-psp/creatures/Bat.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Bat.cpp > CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Bat.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o: ../creatures/Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o -c /home/dbeef/spelunky-psp/creatures/Bullet.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Bullet.cpp > CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Bullet.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o: ../creatures/Spider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o -c /home/dbeef/spelunky-psp/creatures/Spider.cpp
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/creatures/Spider.cpp > CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.i
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/creatures/Spider.cpp -o CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.s
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.provides: CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o: ../memory/SpriteInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o -c /home/dbeef/spelunky-psp/memory/SpriteInfo.cpp
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/memory/SpriteInfo.cpp > CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.i
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/memory/SpriteInfo.cpp -o CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.s
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.provides: CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o: ../memory/SpriteUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o -c /home/dbeef/spelunky-psp/memory/SpriteUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/memory/SpriteUtils.cpp > CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/memory/SpriteUtils.cpp -o CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o: ../memory/OamUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o -c /home/dbeef/spelunky-psp/memory/OamUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/memory/OamUtils.cpp > CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/memory/OamUtils.cpp -o CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o: ../memory/OamManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o -c /home/dbeef/spelunky-psp/memory/OamManager.cpp
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/memory/OamManager.cpp > CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.i
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/memory/OamManager.cpp -o CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.s
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.provides: CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o: ../_interfaces/IBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o -c /home/dbeef/spelunky-psp/_interfaces/IBase.cpp
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/_interfaces/IBase.cpp > CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.i
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/_interfaces/IBase.cpp -o CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.s
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.provides: CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o: ../_interfaces/ShoppingObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o -c /home/dbeef/spelunky-psp/_interfaces/ShoppingObject.cpp
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/_interfaces/ShoppingObject.cpp > CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.i
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/_interfaces/ShoppingObject.cpp -o CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.s
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.provides: CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o: ../_interfaces/IPickupable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o -c /home/dbeef/spelunky-psp/_interfaces/IPickupable.cpp
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/_interfaces/IPickupable.cpp > CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.i
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/_interfaces/IPickupable.cpp -o CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.s
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.provides: CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o: ../_interfaces/IRenderable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o -c /home/dbeef/spelunky-psp/_interfaces/IRenderable.cpp
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/_interfaces/IRenderable.cpp > CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.i
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/_interfaces/IRenderable.cpp -o CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.s
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.provides: CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o: ../_interfaces/ICollidable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o -c /home/dbeef/spelunky-psp/_interfaces/ICollidable.cpp
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/_interfaces/ICollidable.cpp > CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.i
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/_interfaces/ICollidable.cpp -o CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.s
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.provides: CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o: ../items/Shotgun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o -c /home/dbeef/spelunky-psp/items/Shotgun.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Shotgun.cpp > CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Shotgun.cpp -o CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o: ../items/Mitt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o -c /home/dbeef/spelunky-psp/items/Mitt.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Mitt.cpp > CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Mitt.cpp -o CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o: ../items/Arrow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o -c /home/dbeef/spelunky-psp/items/Arrow.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Arrow.cpp > CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Arrow.cpp -o CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o: ../items/Crate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o -c /home/dbeef/spelunky-psp/items/Crate.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Crate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Crate.cpp > CMakeFiles/spelunkypsp.dir/items/Crate.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Crate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Crate.cpp -o CMakeFiles/spelunkypsp.dir/items/Crate.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o: ../items/SpikeShoes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o -c /home/dbeef/spelunky-psp/items/SpikeShoes.cpp
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/SpikeShoes.cpp > CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/SpikeShoes.cpp -o CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o: ../items/Rope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o -c /home/dbeef/spelunky-psp/items/Rope.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Rope.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Rope.cpp > CMakeFiles/spelunkypsp.dir/items/Rope.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Rope.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Rope.cpp -o CMakeFiles/spelunkypsp.dir/items/Rope.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o: ../items/SpringShoes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o -c /home/dbeef/spelunky-psp/items/SpringShoes.cpp
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/SpringShoes.cpp > CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/SpringShoes.cpp -o CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o: ../items/_BaseItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o -c /home/dbeef/spelunky-psp/items/_BaseItem.cpp
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/_BaseItem.cpp > CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/_BaseItem.cpp -o CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o: ../items/Compass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o -c /home/dbeef/spelunky-psp/items/Compass.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Compass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Compass.cpp > CMakeFiles/spelunkypsp.dir/items/Compass.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Compass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Compass.cpp -o CMakeFiles/spelunkypsp.dir/items/Compass.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o: ../items/_ItemsUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o -c /home/dbeef/spelunky-psp/items/_ItemsUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/_ItemsUtils.cpp > CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/_ItemsUtils.cpp -o CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o: ../items/Jar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o -c /home/dbeef/spelunky-psp/items/Jar.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Jar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Jar.cpp > CMakeFiles/spelunkypsp.dir/items/Jar.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Jar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Jar.cpp -o CMakeFiles/spelunkypsp.dir/items/Jar.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o: ../items/Cape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o -c /home/dbeef/spelunky-psp/items/Cape.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Cape.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Cape.cpp > CMakeFiles/spelunkypsp.dir/items/Cape.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Cape.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Cape.cpp -o CMakeFiles/spelunkypsp.dir/items/Cape.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o: ../items/GoldenIdol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o -c /home/dbeef/spelunky-psp/items/GoldenIdol.cpp
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/GoldenIdol.cpp > CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/GoldenIdol.cpp -o CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o: ../items/Pistol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o -c /home/dbeef/spelunky-psp/items/Pistol.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Pistol.cpp > CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Pistol.cpp -o CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o: ../items/Bomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o -c /home/dbeef/spelunky-psp/items/Bomb.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Bomb.cpp > CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Bomb.cpp -o CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o: ../items/Chest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o -c /home/dbeef/spelunky-psp/items/Chest.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Chest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Chest.cpp > CMakeFiles/spelunkypsp.dir/items/Chest.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Chest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Chest.cpp -o CMakeFiles/spelunkypsp.dir/items/Chest.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o: ../items/Glove.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o -c /home/dbeef/spelunky-psp/items/Glove.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Glove.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Glove.cpp > CMakeFiles/spelunkypsp.dir/items/Glove.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Glove.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Glove.cpp -o CMakeFiles/spelunkypsp.dir/items/Glove.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o: ../items/Jetpack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o -c /home/dbeef/spelunky-psp/items/Jetpack.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Jetpack.cpp > CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Jetpack.cpp -o CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o: ../items/Rock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o -c /home/dbeef/spelunky-psp/items/Rock.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Rock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Rock.cpp > CMakeFiles/spelunkypsp.dir/items/Rock.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Rock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Rock.cpp -o CMakeFiles/spelunkypsp.dir/items/Rock.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o: ../items/Skull.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o -c /home/dbeef/spelunky-psp/items/Skull.cpp
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/items/Skull.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/items/Skull.cpp > CMakeFiles/spelunkypsp.dir/items/Skull.cpp.i
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/items/Skull.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/items/Skull.cpp -o CMakeFiles/spelunkypsp.dir/items/Skull.cpp.s
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.provides: CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o: ../decorations/SpelunkyTitle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o -c /home/dbeef/spelunky-psp/decorations/SpelunkyTitle.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/SpelunkyTitle.cpp > CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/SpelunkyTitle.cpp -o CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o: ../decorations/Explosion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o -c /home/dbeef/spelunky-psp/decorations/Explosion.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/Explosion.cpp > CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/Explosion.cpp -o CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o: ../decorations/Copyrights.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o -c /home/dbeef/spelunky-psp/decorations/Copyrights.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/Copyrights.cpp > CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/Copyrights.cpp -o CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o: ../decorations/ArchSign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o -c /home/dbeef/spelunky-psp/decorations/ArchSign.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/ArchSign.cpp > CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/ArchSign.cpp -o CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o: ../decorations/ArrowTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o -c /home/dbeef/spelunky-psp/decorations/ArrowTrap.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/ArrowTrap.cpp > CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/ArrowTrap.cpp -o CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o: ../decorations/RockSign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o -c /home/dbeef/spelunky-psp/decorations/RockSign.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/RockSign.cpp > CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/RockSign.cpp -o CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o: ../decorations/ShoppingIcon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o -c /home/dbeef/spelunky-psp/decorations/ShoppingIcon.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/ShoppingIcon.cpp > CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/ShoppingIcon.cpp -o CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o: ../decorations/RopeElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o -c /home/dbeef/spelunky-psp/decorations/RopeElement.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/RopeElement.cpp > CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/RopeElement.cpp -o CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o: ../decorations/Blast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o -c /home/dbeef/spelunky-psp/decorations/Blast.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/Blast.cpp > CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/Blast.cpp -o CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o: ../decorations/Smooch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o -c /home/dbeef/spelunky-psp/decorations/Smooch.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/Smooch.cpp > CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/Smooch.cpp -o CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o: ../decorations/GotCollectible.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o -c /home/dbeef/spelunky-psp/decorations/GotCollectible.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/GotCollectible.cpp > CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/GotCollectible.cpp -o CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o: ../decorations/Lamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o -c /home/dbeef/spelunky-psp/decorations/Lamp.cpp
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/decorations/Lamp.cpp > CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.i
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/decorations/Lamp.cpp -o CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.s
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.provides: CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o: ../animations/Bone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o -c /home/dbeef/spelunky-psp/animations/Bone.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/Bone.cpp > CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/Bone.cpp -o CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o: ../animations/FakeSkeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o -c /home/dbeef/spelunky-psp/animations/FakeSkeleton.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/FakeSkeleton.cpp > CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/FakeSkeleton.cpp -o CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o: ../animations/Flame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o -c /home/dbeef/spelunky-psp/animations/Flame.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/Flame.cpp > CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/Flame.cpp -o CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o: ../animations/BloodElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o -c /home/dbeef/spelunky-psp/animations/BloodElement.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/BloodElement.cpp > CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/BloodElement.cpp -o CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o: ../animations/FallPoof.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o -c /home/dbeef/spelunky-psp/animations/FallPoof.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/FallPoof.cpp > CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/FallPoof.cpp -o CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o: ../animations/FlameElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o -c /home/dbeef/spelunky-psp/animations/FlameElement.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/FlameElement.cpp > CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/FlameElement.cpp -o CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o: ../animations/Blood.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o -c /home/dbeef/spelunky-psp/animations/Blood.cpp
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/animations/Blood.cpp > CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.i
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/animations/Blood.cpp -o CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.s
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.provides: CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o: ../hud/Hud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o -c /home/dbeef/spelunky-psp/hud/Hud.cpp
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/hud/Hud.cpp > CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.i
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/hud/Hud.cpp -o CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.s
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.provides: CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o: ../treasures/RubyBig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o -c /home/dbeef/spelunky-psp/treasures/RubyBig.cpp
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/treasures/RubyBig.cpp > CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.i
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/treasures/RubyBig.cpp -o CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.s
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.provides: CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o: ../treasures/_BaseTreasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o -c /home/dbeef/spelunky-psp/treasures/_BaseTreasure.cpp
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/treasures/_BaseTreasure.cpp > CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.i
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/treasures/_BaseTreasure.cpp -o CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.s
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.provides: CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o: ../treasures/RubySmall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o -c /home/dbeef/spelunky-psp/treasures/RubySmall.cpp
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/treasures/RubySmall.cpp > CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.i
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/treasures/RubySmall.cpp -o CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.s
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.provides: CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o: ../treasures/TripleGoldbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o -c /home/dbeef/spelunky-psp/treasures/TripleGoldbar.cpp
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/treasures/TripleGoldbar.cpp > CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.i
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/treasures/TripleGoldbar.cpp -o CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.s
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.provides: CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o
+
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o: ../treasures/SingleGoldbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o -c /home/dbeef/spelunky-psp/treasures/SingleGoldbar.cpp
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/treasures/SingleGoldbar.cpp > CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.i
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/treasures/SingleGoldbar.cpp -o CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.s
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.provides: CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o
+
+
 # Object files for target spelunkypsp
 spelunkypsp_OBJECTS = \
 "CMakeFiles/spelunkypsp.dir/main.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o" \
-"CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o"
+"CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o"
 
 # External object files for target spelunkypsp
 spelunkypsp_EXTERNAL_OBJECTS =
 
 spelunkypsp: CMakeFiles/spelunkypsp.dir/main.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/build.make
 spelunkypsp: CMakeFiles/spelunkypsp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable spelunkypsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable spelunkypsp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spelunkypsp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -308,14 +2180,86 @@ CMakeFiles/spelunkypsp.dir/build: spelunkypsp
 .PHONY : CMakeFiles/spelunkypsp.dir/build
 
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/main.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o.requires
 
 .PHONY : CMakeFiles/spelunkypsp.dir/requires
 

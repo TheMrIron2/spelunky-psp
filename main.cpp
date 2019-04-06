@@ -33,14 +33,10 @@
 
 #include "globals/GlobalsDefinitions.hpp"
 #include "globals/GlobalsDeclarations.hpp"
+#include "GameLoop.hpp"
 
 PSP_MODULE_INFO("Spelunky", 0, 1, 1);
 PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
-
-
-static Camera *camera = new Camera();
-static Level *level = new Level(camera);
-
 
 static
 void reshape(int w, int h) {
@@ -56,7 +52,7 @@ void reshape(int w, int h) {
     GLCHK(glLoadIdentity());
     dumpmat(GL_MODELVIEW_MATRIX, "ident modelview");
     dumpmat(GL_PROJECTION_MATRIX, "non-current proj");
-    gluLookAt(camera->x, camera->y, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
+    gluLookAt(global::camera->x, global::camera->y, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
     dumpmat(GL_MODELVIEW_MATRIX, "lookat modelview");
     glLoadIdentity();
 }
@@ -65,46 +61,24 @@ void reshape(int w, int h) {
 #define NTEX    1
 static GLuint texture_indexes[NTEX];
 
-static void display() {
-
-    time_utils::update_ms_since_last_frame();
-
-    GLCHK(glShadeModel(GL_SMOOTH));
-    GLCHK(glClear(GL_COLOR_BUFFER_BIT));
-    GLCHK(glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE));
-    GLCHK(glEnable(GL_BLEND));
-    GLCHK(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
-
-    global::input_handler->updateInput();
-    level->write_tiles_to_map();
-    glutSwapBuffers();
-    glutPostRedisplay();
-
-    if(global::input_handler->a_key_down) camera->x += 1.0 / 16;
-    if(global::input_handler->y_key_down) camera->x -= 1.0 / 16;
-    if(global::input_handler->x_key_down) camera->y -= 1.0 / 16;
-    if(global::input_handler->b_key_down) camera->y += 1.0 / 16;
-
-}
-
-
 int main(int argc, char *argv[]) {
 
-    level->init_map_tiles();
-    level->generate_frame();
-    generate_new_level_layout(level);
-    level->initialise_tiles_from_room_layout();
-//    level->initialise_tiles_from_splash_screen(MAIN_MENU_UPPER);
-//    level->initialise_tiles_from_splash_screen(MAIN_MENU_LOWER);
-
     global::init_globals();
+
+    global::current_level->init_map_tiles();
+    global::current_level->generate_frame();
+    generate_new_level_layout();
+    global::current_level->initialise_tiles_from_room_layout();
+//    global::current_level->initialise_tiles_from_splash_screen(MAIN_MENU_UPPER);
+//    global::current_level->initialise_tiles_from_splash_screen(MAIN_MENU_LOWER);
+
 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
     glutInitWindowSize(SCREEN_WIDTH, SCREEN_HEIGHT);
     glutReshapeFunc(reshape);
     int window = glutCreateWindow(__FILE__);
-    glutDisplayFunc(display);
+    glutDisplayFunc(gameloop::run);
 
     GLCHK(glGenTextures(NTEX, texture_indexes));
     GLCHK(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP));
@@ -113,7 +87,7 @@ int main(int argc, char *argv[]) {
     GLCHK(glEnable(GL_TEXTURE_2D));
 
     eglSwapInterval(reinterpret_cast<void *>(window), 1);
-    level->upload_tilesheet();
+    global::current_level->upload_tilesheet();
     time_utils::start();
     glutMainLoop();
     time_utils::stop();

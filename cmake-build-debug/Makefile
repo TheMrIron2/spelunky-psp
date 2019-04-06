@@ -123,6 +123,357 @@ spelunkypsp/fast:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/build
 .PHONY : spelunkypsp/fast
 
+GameLoop.o: GameLoop.cpp.o
+
+.PHONY : GameLoop.o
+
+# target to build an object file
+GameLoop.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/GameLoop.cpp.o
+.PHONY : GameLoop.cpp.o
+
+GameLoop.i: GameLoop.cpp.i
+
+.PHONY : GameLoop.i
+
+# target to preprocess a source file
+GameLoop.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/GameLoop.cpp.i
+.PHONY : GameLoop.cpp.i
+
+GameLoop.s: GameLoop.cpp.s
+
+.PHONY : GameLoop.s
+
+# target to generate assembly for a file
+GameLoop.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/GameLoop.cpp.s
+.PHONY : GameLoop.cpp.s
+
+_interfaces/IBase.o: _interfaces/IBase.cpp.o
+
+.PHONY : _interfaces/IBase.o
+
+# target to build an object file
+_interfaces/IBase.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.o
+.PHONY : _interfaces/IBase.cpp.o
+
+_interfaces/IBase.i: _interfaces/IBase.cpp.i
+
+.PHONY : _interfaces/IBase.i
+
+# target to preprocess a source file
+_interfaces/IBase.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.i
+.PHONY : _interfaces/IBase.cpp.i
+
+_interfaces/IBase.s: _interfaces/IBase.cpp.s
+
+.PHONY : _interfaces/IBase.s
+
+# target to generate assembly for a file
+_interfaces/IBase.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IBase.cpp.s
+.PHONY : _interfaces/IBase.cpp.s
+
+_interfaces/ICollidable.o: _interfaces/ICollidable.cpp.o
+
+.PHONY : _interfaces/ICollidable.o
+
+# target to build an object file
+_interfaces/ICollidable.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.o
+.PHONY : _interfaces/ICollidable.cpp.o
+
+_interfaces/ICollidable.i: _interfaces/ICollidable.cpp.i
+
+.PHONY : _interfaces/ICollidable.i
+
+# target to preprocess a source file
+_interfaces/ICollidable.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.i
+.PHONY : _interfaces/ICollidable.cpp.i
+
+_interfaces/ICollidable.s: _interfaces/ICollidable.cpp.s
+
+.PHONY : _interfaces/ICollidable.s
+
+# target to generate assembly for a file
+_interfaces/ICollidable.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ICollidable.cpp.s
+.PHONY : _interfaces/ICollidable.cpp.s
+
+_interfaces/IPickupable.o: _interfaces/IPickupable.cpp.o
+
+.PHONY : _interfaces/IPickupable.o
+
+# target to build an object file
+_interfaces/IPickupable.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.o
+.PHONY : _interfaces/IPickupable.cpp.o
+
+_interfaces/IPickupable.i: _interfaces/IPickupable.cpp.i
+
+.PHONY : _interfaces/IPickupable.i
+
+# target to preprocess a source file
+_interfaces/IPickupable.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.i
+.PHONY : _interfaces/IPickupable.cpp.i
+
+_interfaces/IPickupable.s: _interfaces/IPickupable.cpp.s
+
+.PHONY : _interfaces/IPickupable.s
+
+# target to generate assembly for a file
+_interfaces/IPickupable.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IPickupable.cpp.s
+.PHONY : _interfaces/IPickupable.cpp.s
+
+_interfaces/IRenderable.o: _interfaces/IRenderable.cpp.o
+
+.PHONY : _interfaces/IRenderable.o
+
+# target to build an object file
+_interfaces/IRenderable.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.o
+.PHONY : _interfaces/IRenderable.cpp.o
+
+_interfaces/IRenderable.i: _interfaces/IRenderable.cpp.i
+
+.PHONY : _interfaces/IRenderable.i
+
+# target to preprocess a source file
+_interfaces/IRenderable.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.i
+.PHONY : _interfaces/IRenderable.cpp.i
+
+_interfaces/IRenderable.s: _interfaces/IRenderable.cpp.s
+
+.PHONY : _interfaces/IRenderable.s
+
+# target to generate assembly for a file
+_interfaces/IRenderable.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/IRenderable.cpp.s
+.PHONY : _interfaces/IRenderable.cpp.s
+
+_interfaces/ShoppingObject.o: _interfaces/ShoppingObject.cpp.o
+
+.PHONY : _interfaces/ShoppingObject.o
+
+# target to build an object file
+_interfaces/ShoppingObject.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.o
+.PHONY : _interfaces/ShoppingObject.cpp.o
+
+_interfaces/ShoppingObject.i: _interfaces/ShoppingObject.cpp.i
+
+.PHONY : _interfaces/ShoppingObject.i
+
+# target to preprocess a source file
+_interfaces/ShoppingObject.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.i
+.PHONY : _interfaces/ShoppingObject.cpp.i
+
+_interfaces/ShoppingObject.s: _interfaces/ShoppingObject.cpp.s
+
+.PHONY : _interfaces/ShoppingObject.s
+
+# target to generate assembly for a file
+_interfaces/ShoppingObject.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/_interfaces/ShoppingObject.cpp.s
+.PHONY : _interfaces/ShoppingObject.cpp.s
+
+animations/Blood.o: animations/Blood.cpp.o
+
+.PHONY : animations/Blood.o
+
+# target to build an object file
+animations/Blood.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.o
+.PHONY : animations/Blood.cpp.o
+
+animations/Blood.i: animations/Blood.cpp.i
+
+.PHONY : animations/Blood.i
+
+# target to preprocess a source file
+animations/Blood.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.i
+.PHONY : animations/Blood.cpp.i
+
+animations/Blood.s: animations/Blood.cpp.s
+
+.PHONY : animations/Blood.s
+
+# target to generate assembly for a file
+animations/Blood.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Blood.cpp.s
+.PHONY : animations/Blood.cpp.s
+
+animations/BloodElement.o: animations/BloodElement.cpp.o
+
+.PHONY : animations/BloodElement.o
+
+# target to build an object file
+animations/BloodElement.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.o
+.PHONY : animations/BloodElement.cpp.o
+
+animations/BloodElement.i: animations/BloodElement.cpp.i
+
+.PHONY : animations/BloodElement.i
+
+# target to preprocess a source file
+animations/BloodElement.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.i
+.PHONY : animations/BloodElement.cpp.i
+
+animations/BloodElement.s: animations/BloodElement.cpp.s
+
+.PHONY : animations/BloodElement.s
+
+# target to generate assembly for a file
+animations/BloodElement.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/BloodElement.cpp.s
+.PHONY : animations/BloodElement.cpp.s
+
+animations/Bone.o: animations/Bone.cpp.o
+
+.PHONY : animations/Bone.o
+
+# target to build an object file
+animations/Bone.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.o
+.PHONY : animations/Bone.cpp.o
+
+animations/Bone.i: animations/Bone.cpp.i
+
+.PHONY : animations/Bone.i
+
+# target to preprocess a source file
+animations/Bone.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.i
+.PHONY : animations/Bone.cpp.i
+
+animations/Bone.s: animations/Bone.cpp.s
+
+.PHONY : animations/Bone.s
+
+# target to generate assembly for a file
+animations/Bone.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Bone.cpp.s
+.PHONY : animations/Bone.cpp.s
+
+animations/FakeSkeleton.o: animations/FakeSkeleton.cpp.o
+
+.PHONY : animations/FakeSkeleton.o
+
+# target to build an object file
+animations/FakeSkeleton.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.o
+.PHONY : animations/FakeSkeleton.cpp.o
+
+animations/FakeSkeleton.i: animations/FakeSkeleton.cpp.i
+
+.PHONY : animations/FakeSkeleton.i
+
+# target to preprocess a source file
+animations/FakeSkeleton.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.i
+.PHONY : animations/FakeSkeleton.cpp.i
+
+animations/FakeSkeleton.s: animations/FakeSkeleton.cpp.s
+
+.PHONY : animations/FakeSkeleton.s
+
+# target to generate assembly for a file
+animations/FakeSkeleton.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FakeSkeleton.cpp.s
+.PHONY : animations/FakeSkeleton.cpp.s
+
+animations/FallPoof.o: animations/FallPoof.cpp.o
+
+.PHONY : animations/FallPoof.o
+
+# target to build an object file
+animations/FallPoof.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.o
+.PHONY : animations/FallPoof.cpp.o
+
+animations/FallPoof.i: animations/FallPoof.cpp.i
+
+.PHONY : animations/FallPoof.i
+
+# target to preprocess a source file
+animations/FallPoof.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.i
+.PHONY : animations/FallPoof.cpp.i
+
+animations/FallPoof.s: animations/FallPoof.cpp.s
+
+.PHONY : animations/FallPoof.s
+
+# target to generate assembly for a file
+animations/FallPoof.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FallPoof.cpp.s
+.PHONY : animations/FallPoof.cpp.s
+
+animations/Flame.o: animations/Flame.cpp.o
+
+.PHONY : animations/Flame.o
+
+# target to build an object file
+animations/Flame.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.o
+.PHONY : animations/Flame.cpp.o
+
+animations/Flame.i: animations/Flame.cpp.i
+
+.PHONY : animations/Flame.i
+
+# target to preprocess a source file
+animations/Flame.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.i
+.PHONY : animations/Flame.cpp.i
+
+animations/Flame.s: animations/Flame.cpp.s
+
+.PHONY : animations/Flame.s
+
+# target to generate assembly for a file
+animations/Flame.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/Flame.cpp.s
+.PHONY : animations/Flame.cpp.s
+
+animations/FlameElement.o: animations/FlameElement.cpp.o
+
+.PHONY : animations/FlameElement.o
+
+# target to build an object file
+animations/FlameElement.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.o
+.PHONY : animations/FlameElement.cpp.o
+
+animations/FlameElement.i: animations/FlameElement.cpp.i
+
+.PHONY : animations/FlameElement.i
+
+# target to preprocess a source file
+animations/FlameElement.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.i
+.PHONY : animations/FlameElement.cpp.i
+
+animations/FlameElement.s: animations/FlameElement.cpp.s
+
+.PHONY : animations/FlameElement.s
+
+# target to generate assembly for a file
+animations/FlameElement.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/animations/FlameElement.cpp.s
+.PHONY : animations/FlameElement.cpp.s
+
 camera/Camera.o: camera/Camera.cpp.o
 
 .PHONY : camera/Camera.o
@@ -149,6 +500,708 @@ camera/Camera.s: camera/Camera.cpp.s
 camera/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.s
 .PHONY : camera/Camera.cpp.s
+
+collisions/Collisions.o: collisions/Collisions.cpp.o
+
+.PHONY : collisions/Collisions.o
+
+# target to build an object file
+collisions/Collisions.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.o
+.PHONY : collisions/Collisions.cpp.o
+
+collisions/Collisions.i: collisions/Collisions.cpp.i
+
+.PHONY : collisions/Collisions.i
+
+# target to preprocess a source file
+collisions/Collisions.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.i
+.PHONY : collisions/Collisions.cpp.i
+
+collisions/Collisions.s: collisions/Collisions.cpp.s
+
+.PHONY : collisions/Collisions.s
+
+# target to generate assembly for a file
+collisions/Collisions.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/Collisions.cpp.s
+.PHONY : collisions/Collisions.cpp.s
+
+collisions/CollisionsUtils.o: collisions/CollisionsUtils.cpp.o
+
+.PHONY : collisions/CollisionsUtils.o
+
+# target to build an object file
+collisions/CollisionsUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.o
+.PHONY : collisions/CollisionsUtils.cpp.o
+
+collisions/CollisionsUtils.i: collisions/CollisionsUtils.cpp.i
+
+.PHONY : collisions/CollisionsUtils.i
+
+# target to preprocess a source file
+collisions/CollisionsUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.i
+.PHONY : collisions/CollisionsUtils.cpp.i
+
+collisions/CollisionsUtils.s: collisions/CollisionsUtils.cpp.s
+
+.PHONY : collisions/CollisionsUtils.s
+
+# target to generate assembly for a file
+collisions/CollisionsUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/collisions/CollisionsUtils.cpp.s
+.PHONY : collisions/CollisionsUtils.cpp.s
+
+creatures/Bat.o: creatures/Bat.cpp.o
+
+.PHONY : creatures/Bat.o
+
+# target to build an object file
+creatures/Bat.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.o
+.PHONY : creatures/Bat.cpp.o
+
+creatures/Bat.i: creatures/Bat.cpp.i
+
+.PHONY : creatures/Bat.i
+
+# target to preprocess a source file
+creatures/Bat.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.i
+.PHONY : creatures/Bat.cpp.i
+
+creatures/Bat.s: creatures/Bat.cpp.s
+
+.PHONY : creatures/Bat.s
+
+# target to generate assembly for a file
+creatures/Bat.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bat.cpp.s
+.PHONY : creatures/Bat.cpp.s
+
+creatures/Boulder.o: creatures/Boulder.cpp.o
+
+.PHONY : creatures/Boulder.o
+
+# target to build an object file
+creatures/Boulder.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.o
+.PHONY : creatures/Boulder.cpp.o
+
+creatures/Boulder.i: creatures/Boulder.cpp.i
+
+.PHONY : creatures/Boulder.i
+
+# target to preprocess a source file
+creatures/Boulder.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.i
+.PHONY : creatures/Boulder.cpp.i
+
+creatures/Boulder.s: creatures/Boulder.cpp.s
+
+.PHONY : creatures/Boulder.s
+
+# target to generate assembly for a file
+creatures/Boulder.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Boulder.cpp.s
+.PHONY : creatures/Boulder.cpp.s
+
+creatures/Bullet.o: creatures/Bullet.cpp.o
+
+.PHONY : creatures/Bullet.o
+
+# target to build an object file
+creatures/Bullet.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.o
+.PHONY : creatures/Bullet.cpp.o
+
+creatures/Bullet.i: creatures/Bullet.cpp.i
+
+.PHONY : creatures/Bullet.i
+
+# target to preprocess a source file
+creatures/Bullet.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.i
+.PHONY : creatures/Bullet.cpp.i
+
+creatures/Bullet.s: creatures/Bullet.cpp.s
+
+.PHONY : creatures/Bullet.s
+
+# target to generate assembly for a file
+creatures/Bullet.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Bullet.cpp.s
+.PHONY : creatures/Bullet.cpp.s
+
+creatures/Caveman.o: creatures/Caveman.cpp.o
+
+.PHONY : creatures/Caveman.o
+
+# target to build an object file
+creatures/Caveman.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.o
+.PHONY : creatures/Caveman.cpp.o
+
+creatures/Caveman.i: creatures/Caveman.cpp.i
+
+.PHONY : creatures/Caveman.i
+
+# target to preprocess a source file
+creatures/Caveman.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.i
+.PHONY : creatures/Caveman.cpp.i
+
+creatures/Caveman.s: creatures/Caveman.cpp.s
+
+.PHONY : creatures/Caveman.s
+
+# target to generate assembly for a file
+creatures/Caveman.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Caveman.cpp.s
+.PHONY : creatures/Caveman.cpp.s
+
+creatures/Damsel.o: creatures/Damsel.cpp.o
+
+.PHONY : creatures/Damsel.o
+
+# target to build an object file
+creatures/Damsel.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.o
+.PHONY : creatures/Damsel.cpp.o
+
+creatures/Damsel.i: creatures/Damsel.cpp.i
+
+.PHONY : creatures/Damsel.i
+
+# target to preprocess a source file
+creatures/Damsel.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.i
+.PHONY : creatures/Damsel.cpp.i
+
+creatures/Damsel.s: creatures/Damsel.cpp.s
+
+.PHONY : creatures/Damsel.s
+
+# target to generate assembly for a file
+creatures/Damsel.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Damsel.cpp.s
+.PHONY : creatures/Damsel.cpp.s
+
+creatures/Shopkeeper.o: creatures/Shopkeeper.cpp.o
+
+.PHONY : creatures/Shopkeeper.o
+
+# target to build an object file
+creatures/Shopkeeper.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.o
+.PHONY : creatures/Shopkeeper.cpp.o
+
+creatures/Shopkeeper.i: creatures/Shopkeeper.cpp.i
+
+.PHONY : creatures/Shopkeeper.i
+
+# target to preprocess a source file
+creatures/Shopkeeper.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.i
+.PHONY : creatures/Shopkeeper.cpp.i
+
+creatures/Shopkeeper.s: creatures/Shopkeeper.cpp.s
+
+.PHONY : creatures/Shopkeeper.s
+
+# target to generate assembly for a file
+creatures/Shopkeeper.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Shopkeeper.cpp.s
+.PHONY : creatures/Shopkeeper.cpp.s
+
+creatures/Skeleton.o: creatures/Skeleton.cpp.o
+
+.PHONY : creatures/Skeleton.o
+
+# target to build an object file
+creatures/Skeleton.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.o
+.PHONY : creatures/Skeleton.cpp.o
+
+creatures/Skeleton.i: creatures/Skeleton.cpp.i
+
+.PHONY : creatures/Skeleton.i
+
+# target to preprocess a source file
+creatures/Skeleton.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.i
+.PHONY : creatures/Skeleton.cpp.i
+
+creatures/Skeleton.s: creatures/Skeleton.cpp.s
+
+.PHONY : creatures/Skeleton.s
+
+# target to generate assembly for a file
+creatures/Skeleton.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Skeleton.cpp.s
+.PHONY : creatures/Skeleton.cpp.s
+
+creatures/Snake.o: creatures/Snake.cpp.o
+
+.PHONY : creatures/Snake.o
+
+# target to build an object file
+creatures/Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.o
+.PHONY : creatures/Snake.cpp.o
+
+creatures/Snake.i: creatures/Snake.cpp.i
+
+.PHONY : creatures/Snake.i
+
+# target to preprocess a source file
+creatures/Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.i
+.PHONY : creatures/Snake.cpp.i
+
+creatures/Snake.s: creatures/Snake.cpp.s
+
+.PHONY : creatures/Snake.s
+
+# target to generate assembly for a file
+creatures/Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Snake.cpp.s
+.PHONY : creatures/Snake.cpp.s
+
+creatures/Spider.o: creatures/Spider.cpp.o
+
+.PHONY : creatures/Spider.o
+
+# target to build an object file
+creatures/Spider.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.o
+.PHONY : creatures/Spider.cpp.o
+
+creatures/Spider.i: creatures/Spider.cpp.i
+
+.PHONY : creatures/Spider.i
+
+# target to preprocess a source file
+creatures/Spider.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.i
+.PHONY : creatures/Spider.cpp.i
+
+creatures/Spider.s: creatures/Spider.cpp.s
+
+.PHONY : creatures/Spider.s
+
+# target to generate assembly for a file
+creatures/Spider.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spider.cpp.s
+.PHONY : creatures/Spider.cpp.s
+
+creatures/Spikes.o: creatures/Spikes.cpp.o
+
+.PHONY : creatures/Spikes.o
+
+# target to build an object file
+creatures/Spikes.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.o
+.PHONY : creatures/Spikes.cpp.o
+
+creatures/Spikes.i: creatures/Spikes.cpp.i
+
+.PHONY : creatures/Spikes.i
+
+# target to preprocess a source file
+creatures/Spikes.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.i
+.PHONY : creatures/Spikes.cpp.i
+
+creatures/Spikes.s: creatures/Spikes.cpp.s
+
+.PHONY : creatures/Spikes.s
+
+# target to generate assembly for a file
+creatures/Spikes.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/Spikes.cpp.s
+.PHONY : creatures/Spikes.cpp.s
+
+creatures/_BaseCreature.o: creatures/_BaseCreature.cpp.o
+
+.PHONY : creatures/_BaseCreature.o
+
+# target to build an object file
+creatures/_BaseCreature.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.o
+.PHONY : creatures/_BaseCreature.cpp.o
+
+creatures/_BaseCreature.i: creatures/_BaseCreature.cpp.i
+
+.PHONY : creatures/_BaseCreature.i
+
+# target to preprocess a source file
+creatures/_BaseCreature.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.i
+.PHONY : creatures/_BaseCreature.cpp.i
+
+creatures/_BaseCreature.s: creatures/_BaseCreature.cpp.s
+
+.PHONY : creatures/_BaseCreature.s
+
+# target to generate assembly for a file
+creatures/_BaseCreature.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/creatures/_BaseCreature.cpp.s
+.PHONY : creatures/_BaseCreature.cpp.s
+
+decorations/ArchSign.o: decorations/ArchSign.cpp.o
+
+.PHONY : decorations/ArchSign.o
+
+# target to build an object file
+decorations/ArchSign.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.o
+.PHONY : decorations/ArchSign.cpp.o
+
+decorations/ArchSign.i: decorations/ArchSign.cpp.i
+
+.PHONY : decorations/ArchSign.i
+
+# target to preprocess a source file
+decorations/ArchSign.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.i
+.PHONY : decorations/ArchSign.cpp.i
+
+decorations/ArchSign.s: decorations/ArchSign.cpp.s
+
+.PHONY : decorations/ArchSign.s
+
+# target to generate assembly for a file
+decorations/ArchSign.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArchSign.cpp.s
+.PHONY : decorations/ArchSign.cpp.s
+
+decorations/ArrowTrap.o: decorations/ArrowTrap.cpp.o
+
+.PHONY : decorations/ArrowTrap.o
+
+# target to build an object file
+decorations/ArrowTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.o
+.PHONY : decorations/ArrowTrap.cpp.o
+
+decorations/ArrowTrap.i: decorations/ArrowTrap.cpp.i
+
+.PHONY : decorations/ArrowTrap.i
+
+# target to preprocess a source file
+decorations/ArrowTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.i
+.PHONY : decorations/ArrowTrap.cpp.i
+
+decorations/ArrowTrap.s: decorations/ArrowTrap.cpp.s
+
+.PHONY : decorations/ArrowTrap.s
+
+# target to generate assembly for a file
+decorations/ArrowTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ArrowTrap.cpp.s
+.PHONY : decorations/ArrowTrap.cpp.s
+
+decorations/Blast.o: decorations/Blast.cpp.o
+
+.PHONY : decorations/Blast.o
+
+# target to build an object file
+decorations/Blast.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.o
+.PHONY : decorations/Blast.cpp.o
+
+decorations/Blast.i: decorations/Blast.cpp.i
+
+.PHONY : decorations/Blast.i
+
+# target to preprocess a source file
+decorations/Blast.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.i
+.PHONY : decorations/Blast.cpp.i
+
+decorations/Blast.s: decorations/Blast.cpp.s
+
+.PHONY : decorations/Blast.s
+
+# target to generate assembly for a file
+decorations/Blast.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Blast.cpp.s
+.PHONY : decorations/Blast.cpp.s
+
+decorations/Copyrights.o: decorations/Copyrights.cpp.o
+
+.PHONY : decorations/Copyrights.o
+
+# target to build an object file
+decorations/Copyrights.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.o
+.PHONY : decorations/Copyrights.cpp.o
+
+decorations/Copyrights.i: decorations/Copyrights.cpp.i
+
+.PHONY : decorations/Copyrights.i
+
+# target to preprocess a source file
+decorations/Copyrights.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.i
+.PHONY : decorations/Copyrights.cpp.i
+
+decorations/Copyrights.s: decorations/Copyrights.cpp.s
+
+.PHONY : decorations/Copyrights.s
+
+# target to generate assembly for a file
+decorations/Copyrights.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Copyrights.cpp.s
+.PHONY : decorations/Copyrights.cpp.s
+
+decorations/Explosion.o: decorations/Explosion.cpp.o
+
+.PHONY : decorations/Explosion.o
+
+# target to build an object file
+decorations/Explosion.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.o
+.PHONY : decorations/Explosion.cpp.o
+
+decorations/Explosion.i: decorations/Explosion.cpp.i
+
+.PHONY : decorations/Explosion.i
+
+# target to preprocess a source file
+decorations/Explosion.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.i
+.PHONY : decorations/Explosion.cpp.i
+
+decorations/Explosion.s: decorations/Explosion.cpp.s
+
+.PHONY : decorations/Explosion.s
+
+# target to generate assembly for a file
+decorations/Explosion.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Explosion.cpp.s
+.PHONY : decorations/Explosion.cpp.s
+
+decorations/GotCollectible.o: decorations/GotCollectible.cpp.o
+
+.PHONY : decorations/GotCollectible.o
+
+# target to build an object file
+decorations/GotCollectible.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.o
+.PHONY : decorations/GotCollectible.cpp.o
+
+decorations/GotCollectible.i: decorations/GotCollectible.cpp.i
+
+.PHONY : decorations/GotCollectible.i
+
+# target to preprocess a source file
+decorations/GotCollectible.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.i
+.PHONY : decorations/GotCollectible.cpp.i
+
+decorations/GotCollectible.s: decorations/GotCollectible.cpp.s
+
+.PHONY : decorations/GotCollectible.s
+
+# target to generate assembly for a file
+decorations/GotCollectible.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/GotCollectible.cpp.s
+.PHONY : decorations/GotCollectible.cpp.s
+
+decorations/Lamp.o: decorations/Lamp.cpp.o
+
+.PHONY : decorations/Lamp.o
+
+# target to build an object file
+decorations/Lamp.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.o
+.PHONY : decorations/Lamp.cpp.o
+
+decorations/Lamp.i: decorations/Lamp.cpp.i
+
+.PHONY : decorations/Lamp.i
+
+# target to preprocess a source file
+decorations/Lamp.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.i
+.PHONY : decorations/Lamp.cpp.i
+
+decorations/Lamp.s: decorations/Lamp.cpp.s
+
+.PHONY : decorations/Lamp.s
+
+# target to generate assembly for a file
+decorations/Lamp.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Lamp.cpp.s
+.PHONY : decorations/Lamp.cpp.s
+
+decorations/RockSign.o: decorations/RockSign.cpp.o
+
+.PHONY : decorations/RockSign.o
+
+# target to build an object file
+decorations/RockSign.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.o
+.PHONY : decorations/RockSign.cpp.o
+
+decorations/RockSign.i: decorations/RockSign.cpp.i
+
+.PHONY : decorations/RockSign.i
+
+# target to preprocess a source file
+decorations/RockSign.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.i
+.PHONY : decorations/RockSign.cpp.i
+
+decorations/RockSign.s: decorations/RockSign.cpp.s
+
+.PHONY : decorations/RockSign.s
+
+# target to generate assembly for a file
+decorations/RockSign.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RockSign.cpp.s
+.PHONY : decorations/RockSign.cpp.s
+
+decorations/RopeElement.o: decorations/RopeElement.cpp.o
+
+.PHONY : decorations/RopeElement.o
+
+# target to build an object file
+decorations/RopeElement.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.o
+.PHONY : decorations/RopeElement.cpp.o
+
+decorations/RopeElement.i: decorations/RopeElement.cpp.i
+
+.PHONY : decorations/RopeElement.i
+
+# target to preprocess a source file
+decorations/RopeElement.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.i
+.PHONY : decorations/RopeElement.cpp.i
+
+decorations/RopeElement.s: decorations/RopeElement.cpp.s
+
+.PHONY : decorations/RopeElement.s
+
+# target to generate assembly for a file
+decorations/RopeElement.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/RopeElement.cpp.s
+.PHONY : decorations/RopeElement.cpp.s
+
+decorations/ShoppingIcon.o: decorations/ShoppingIcon.cpp.o
+
+.PHONY : decorations/ShoppingIcon.o
+
+# target to build an object file
+decorations/ShoppingIcon.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.o
+.PHONY : decorations/ShoppingIcon.cpp.o
+
+decorations/ShoppingIcon.i: decorations/ShoppingIcon.cpp.i
+
+.PHONY : decorations/ShoppingIcon.i
+
+# target to preprocess a source file
+decorations/ShoppingIcon.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.i
+.PHONY : decorations/ShoppingIcon.cpp.i
+
+decorations/ShoppingIcon.s: decorations/ShoppingIcon.cpp.s
+
+.PHONY : decorations/ShoppingIcon.s
+
+# target to generate assembly for a file
+decorations/ShoppingIcon.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/ShoppingIcon.cpp.s
+.PHONY : decorations/ShoppingIcon.cpp.s
+
+decorations/Smooch.o: decorations/Smooch.cpp.o
+
+.PHONY : decorations/Smooch.o
+
+# target to build an object file
+decorations/Smooch.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.o
+.PHONY : decorations/Smooch.cpp.o
+
+decorations/Smooch.i: decorations/Smooch.cpp.i
+
+.PHONY : decorations/Smooch.i
+
+# target to preprocess a source file
+decorations/Smooch.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.i
+.PHONY : decorations/Smooch.cpp.i
+
+decorations/Smooch.s: decorations/Smooch.cpp.s
+
+.PHONY : decorations/Smooch.s
+
+# target to generate assembly for a file
+decorations/Smooch.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/Smooch.cpp.s
+.PHONY : decorations/Smooch.cpp.s
+
+decorations/SpelunkyTitle.o: decorations/SpelunkyTitle.cpp.o
+
+.PHONY : decorations/SpelunkyTitle.o
+
+# target to build an object file
+decorations/SpelunkyTitle.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.o
+.PHONY : decorations/SpelunkyTitle.cpp.o
+
+decorations/SpelunkyTitle.i: decorations/SpelunkyTitle.cpp.i
+
+.PHONY : decorations/SpelunkyTitle.i
+
+# target to preprocess a source file
+decorations/SpelunkyTitle.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.i
+.PHONY : decorations/SpelunkyTitle.cpp.i
+
+decorations/SpelunkyTitle.s: decorations/SpelunkyTitle.cpp.s
+
+.PHONY : decorations/SpelunkyTitle.s
+
+# target to generate assembly for a file
+decorations/SpelunkyTitle.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/decorations/SpelunkyTitle.cpp.s
+.PHONY : decorations/SpelunkyTitle.cpp.s
+
+hud/Hud.o: hud/Hud.cpp.o
+
+.PHONY : hud/Hud.o
+
+# target to build an object file
+hud/Hud.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.o
+.PHONY : hud/Hud.cpp.o
+
+hud/Hud.i: hud/Hud.cpp.i
+
+.PHONY : hud/Hud.i
+
+# target to preprocess a source file
+hud/Hud.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.i
+.PHONY : hud/Hud.cpp.i
+
+hud/Hud.s: hud/Hud.cpp.s
+
+.PHONY : hud/Hud.s
+
+# target to generate assembly for a file
+hud/Hud.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/hud/Hud.cpp.s
+.PHONY : hud/Hud.cpp.s
 
 input/InputHandler.o: input/InputHandler.cpp.o
 
@@ -177,6 +1230,546 @@ input/InputHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.s
 .PHONY : input/InputHandler.cpp.s
 
+items/Arrow.o: items/Arrow.cpp.o
+
+.PHONY : items/Arrow.o
+
+# target to build an object file
+items/Arrow.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.o
+.PHONY : items/Arrow.cpp.o
+
+items/Arrow.i: items/Arrow.cpp.i
+
+.PHONY : items/Arrow.i
+
+# target to preprocess a source file
+items/Arrow.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.i
+.PHONY : items/Arrow.cpp.i
+
+items/Arrow.s: items/Arrow.cpp.s
+
+.PHONY : items/Arrow.s
+
+# target to generate assembly for a file
+items/Arrow.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Arrow.cpp.s
+.PHONY : items/Arrow.cpp.s
+
+items/Bomb.o: items/Bomb.cpp.o
+
+.PHONY : items/Bomb.o
+
+# target to build an object file
+items/Bomb.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.o
+.PHONY : items/Bomb.cpp.o
+
+items/Bomb.i: items/Bomb.cpp.i
+
+.PHONY : items/Bomb.i
+
+# target to preprocess a source file
+items/Bomb.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.i
+.PHONY : items/Bomb.cpp.i
+
+items/Bomb.s: items/Bomb.cpp.s
+
+.PHONY : items/Bomb.s
+
+# target to generate assembly for a file
+items/Bomb.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Bomb.cpp.s
+.PHONY : items/Bomb.cpp.s
+
+items/Cape.o: items/Cape.cpp.o
+
+.PHONY : items/Cape.o
+
+# target to build an object file
+items/Cape.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Cape.cpp.o
+.PHONY : items/Cape.cpp.o
+
+items/Cape.i: items/Cape.cpp.i
+
+.PHONY : items/Cape.i
+
+# target to preprocess a source file
+items/Cape.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Cape.cpp.i
+.PHONY : items/Cape.cpp.i
+
+items/Cape.s: items/Cape.cpp.s
+
+.PHONY : items/Cape.s
+
+# target to generate assembly for a file
+items/Cape.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Cape.cpp.s
+.PHONY : items/Cape.cpp.s
+
+items/Chest.o: items/Chest.cpp.o
+
+.PHONY : items/Chest.o
+
+# target to build an object file
+items/Chest.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Chest.cpp.o
+.PHONY : items/Chest.cpp.o
+
+items/Chest.i: items/Chest.cpp.i
+
+.PHONY : items/Chest.i
+
+# target to preprocess a source file
+items/Chest.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Chest.cpp.i
+.PHONY : items/Chest.cpp.i
+
+items/Chest.s: items/Chest.cpp.s
+
+.PHONY : items/Chest.s
+
+# target to generate assembly for a file
+items/Chest.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Chest.cpp.s
+.PHONY : items/Chest.cpp.s
+
+items/Compass.o: items/Compass.cpp.o
+
+.PHONY : items/Compass.o
+
+# target to build an object file
+items/Compass.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Compass.cpp.o
+.PHONY : items/Compass.cpp.o
+
+items/Compass.i: items/Compass.cpp.i
+
+.PHONY : items/Compass.i
+
+# target to preprocess a source file
+items/Compass.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Compass.cpp.i
+.PHONY : items/Compass.cpp.i
+
+items/Compass.s: items/Compass.cpp.s
+
+.PHONY : items/Compass.s
+
+# target to generate assembly for a file
+items/Compass.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Compass.cpp.s
+.PHONY : items/Compass.cpp.s
+
+items/Crate.o: items/Crate.cpp.o
+
+.PHONY : items/Crate.o
+
+# target to build an object file
+items/Crate.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Crate.cpp.o
+.PHONY : items/Crate.cpp.o
+
+items/Crate.i: items/Crate.cpp.i
+
+.PHONY : items/Crate.i
+
+# target to preprocess a source file
+items/Crate.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Crate.cpp.i
+.PHONY : items/Crate.cpp.i
+
+items/Crate.s: items/Crate.cpp.s
+
+.PHONY : items/Crate.s
+
+# target to generate assembly for a file
+items/Crate.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Crate.cpp.s
+.PHONY : items/Crate.cpp.s
+
+items/Glove.o: items/Glove.cpp.o
+
+.PHONY : items/Glove.o
+
+# target to build an object file
+items/Glove.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Glove.cpp.o
+.PHONY : items/Glove.cpp.o
+
+items/Glove.i: items/Glove.cpp.i
+
+.PHONY : items/Glove.i
+
+# target to preprocess a source file
+items/Glove.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Glove.cpp.i
+.PHONY : items/Glove.cpp.i
+
+items/Glove.s: items/Glove.cpp.s
+
+.PHONY : items/Glove.s
+
+# target to generate assembly for a file
+items/Glove.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Glove.cpp.s
+.PHONY : items/Glove.cpp.s
+
+items/GoldenIdol.o: items/GoldenIdol.cpp.o
+
+.PHONY : items/GoldenIdol.o
+
+# target to build an object file
+items/GoldenIdol.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.o
+.PHONY : items/GoldenIdol.cpp.o
+
+items/GoldenIdol.i: items/GoldenIdol.cpp.i
+
+.PHONY : items/GoldenIdol.i
+
+# target to preprocess a source file
+items/GoldenIdol.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.i
+.PHONY : items/GoldenIdol.cpp.i
+
+items/GoldenIdol.s: items/GoldenIdol.cpp.s
+
+.PHONY : items/GoldenIdol.s
+
+# target to generate assembly for a file
+items/GoldenIdol.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/GoldenIdol.cpp.s
+.PHONY : items/GoldenIdol.cpp.s
+
+items/Jar.o: items/Jar.cpp.o
+
+.PHONY : items/Jar.o
+
+# target to build an object file
+items/Jar.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jar.cpp.o
+.PHONY : items/Jar.cpp.o
+
+items/Jar.i: items/Jar.cpp.i
+
+.PHONY : items/Jar.i
+
+# target to preprocess a source file
+items/Jar.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jar.cpp.i
+.PHONY : items/Jar.cpp.i
+
+items/Jar.s: items/Jar.cpp.s
+
+.PHONY : items/Jar.s
+
+# target to generate assembly for a file
+items/Jar.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jar.cpp.s
+.PHONY : items/Jar.cpp.s
+
+items/Jetpack.o: items/Jetpack.cpp.o
+
+.PHONY : items/Jetpack.o
+
+# target to build an object file
+items/Jetpack.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.o
+.PHONY : items/Jetpack.cpp.o
+
+items/Jetpack.i: items/Jetpack.cpp.i
+
+.PHONY : items/Jetpack.i
+
+# target to preprocess a source file
+items/Jetpack.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.i
+.PHONY : items/Jetpack.cpp.i
+
+items/Jetpack.s: items/Jetpack.cpp.s
+
+.PHONY : items/Jetpack.s
+
+# target to generate assembly for a file
+items/Jetpack.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Jetpack.cpp.s
+.PHONY : items/Jetpack.cpp.s
+
+items/Mitt.o: items/Mitt.cpp.o
+
+.PHONY : items/Mitt.o
+
+# target to build an object file
+items/Mitt.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.o
+.PHONY : items/Mitt.cpp.o
+
+items/Mitt.i: items/Mitt.cpp.i
+
+.PHONY : items/Mitt.i
+
+# target to preprocess a source file
+items/Mitt.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.i
+.PHONY : items/Mitt.cpp.i
+
+items/Mitt.s: items/Mitt.cpp.s
+
+.PHONY : items/Mitt.s
+
+# target to generate assembly for a file
+items/Mitt.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Mitt.cpp.s
+.PHONY : items/Mitt.cpp.s
+
+items/Pistol.o: items/Pistol.cpp.o
+
+.PHONY : items/Pistol.o
+
+# target to build an object file
+items/Pistol.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.o
+.PHONY : items/Pistol.cpp.o
+
+items/Pistol.i: items/Pistol.cpp.i
+
+.PHONY : items/Pistol.i
+
+# target to preprocess a source file
+items/Pistol.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.i
+.PHONY : items/Pistol.cpp.i
+
+items/Pistol.s: items/Pistol.cpp.s
+
+.PHONY : items/Pistol.s
+
+# target to generate assembly for a file
+items/Pistol.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Pistol.cpp.s
+.PHONY : items/Pistol.cpp.s
+
+items/Rock.o: items/Rock.cpp.o
+
+.PHONY : items/Rock.o
+
+# target to build an object file
+items/Rock.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rock.cpp.o
+.PHONY : items/Rock.cpp.o
+
+items/Rock.i: items/Rock.cpp.i
+
+.PHONY : items/Rock.i
+
+# target to preprocess a source file
+items/Rock.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rock.cpp.i
+.PHONY : items/Rock.cpp.i
+
+items/Rock.s: items/Rock.cpp.s
+
+.PHONY : items/Rock.s
+
+# target to generate assembly for a file
+items/Rock.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rock.cpp.s
+.PHONY : items/Rock.cpp.s
+
+items/Rope.o: items/Rope.cpp.o
+
+.PHONY : items/Rope.o
+
+# target to build an object file
+items/Rope.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rope.cpp.o
+.PHONY : items/Rope.cpp.o
+
+items/Rope.i: items/Rope.cpp.i
+
+.PHONY : items/Rope.i
+
+# target to preprocess a source file
+items/Rope.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rope.cpp.i
+.PHONY : items/Rope.cpp.i
+
+items/Rope.s: items/Rope.cpp.s
+
+.PHONY : items/Rope.s
+
+# target to generate assembly for a file
+items/Rope.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Rope.cpp.s
+.PHONY : items/Rope.cpp.s
+
+items/Shotgun.o: items/Shotgun.cpp.o
+
+.PHONY : items/Shotgun.o
+
+# target to build an object file
+items/Shotgun.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.o
+.PHONY : items/Shotgun.cpp.o
+
+items/Shotgun.i: items/Shotgun.cpp.i
+
+.PHONY : items/Shotgun.i
+
+# target to preprocess a source file
+items/Shotgun.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.i
+.PHONY : items/Shotgun.cpp.i
+
+items/Shotgun.s: items/Shotgun.cpp.s
+
+.PHONY : items/Shotgun.s
+
+# target to generate assembly for a file
+items/Shotgun.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Shotgun.cpp.s
+.PHONY : items/Shotgun.cpp.s
+
+items/Skull.o: items/Skull.cpp.o
+
+.PHONY : items/Skull.o
+
+# target to build an object file
+items/Skull.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Skull.cpp.o
+.PHONY : items/Skull.cpp.o
+
+items/Skull.i: items/Skull.cpp.i
+
+.PHONY : items/Skull.i
+
+# target to preprocess a source file
+items/Skull.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Skull.cpp.i
+.PHONY : items/Skull.cpp.i
+
+items/Skull.s: items/Skull.cpp.s
+
+.PHONY : items/Skull.s
+
+# target to generate assembly for a file
+items/Skull.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/Skull.cpp.s
+.PHONY : items/Skull.cpp.s
+
+items/SpikeShoes.o: items/SpikeShoes.cpp.o
+
+.PHONY : items/SpikeShoes.o
+
+# target to build an object file
+items/SpikeShoes.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.o
+.PHONY : items/SpikeShoes.cpp.o
+
+items/SpikeShoes.i: items/SpikeShoes.cpp.i
+
+.PHONY : items/SpikeShoes.i
+
+# target to preprocess a source file
+items/SpikeShoes.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.i
+.PHONY : items/SpikeShoes.cpp.i
+
+items/SpikeShoes.s: items/SpikeShoes.cpp.s
+
+.PHONY : items/SpikeShoes.s
+
+# target to generate assembly for a file
+items/SpikeShoes.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpikeShoes.cpp.s
+.PHONY : items/SpikeShoes.cpp.s
+
+items/SpringShoes.o: items/SpringShoes.cpp.o
+
+.PHONY : items/SpringShoes.o
+
+# target to build an object file
+items/SpringShoes.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.o
+.PHONY : items/SpringShoes.cpp.o
+
+items/SpringShoes.i: items/SpringShoes.cpp.i
+
+.PHONY : items/SpringShoes.i
+
+# target to preprocess a source file
+items/SpringShoes.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.i
+.PHONY : items/SpringShoes.cpp.i
+
+items/SpringShoes.s: items/SpringShoes.cpp.s
+
+.PHONY : items/SpringShoes.s
+
+# target to generate assembly for a file
+items/SpringShoes.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/SpringShoes.cpp.s
+.PHONY : items/SpringShoes.cpp.s
+
+items/_BaseItem.o: items/_BaseItem.cpp.o
+
+.PHONY : items/_BaseItem.o
+
+# target to build an object file
+items/_BaseItem.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.o
+.PHONY : items/_BaseItem.cpp.o
+
+items/_BaseItem.i: items/_BaseItem.cpp.i
+
+.PHONY : items/_BaseItem.i
+
+# target to preprocess a source file
+items/_BaseItem.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.i
+.PHONY : items/_BaseItem.cpp.i
+
+items/_BaseItem.s: items/_BaseItem.cpp.s
+
+.PHONY : items/_BaseItem.s
+
+# target to generate assembly for a file
+items/_BaseItem.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_BaseItem.cpp.s
+.PHONY : items/_BaseItem.cpp.s
+
+items/_ItemsUtils.o: items/_ItemsUtils.cpp.o
+
+.PHONY : items/_ItemsUtils.o
+
+# target to build an object file
+items/_ItemsUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.o
+.PHONY : items/_ItemsUtils.cpp.o
+
+items/_ItemsUtils.i: items/_ItemsUtils.cpp.i
+
+.PHONY : items/_ItemsUtils.i
+
+# target to preprocess a source file
+items/_ItemsUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.i
+.PHONY : items/_ItemsUtils.cpp.i
+
+items/_ItemsUtils.s: items/_ItemsUtils.cpp.s
+
+.PHONY : items/_ItemsUtils.s
+
+# target to generate assembly for a file
+items/_ItemsUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/items/_ItemsUtils.cpp.s
+.PHONY : items/_ItemsUtils.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -203,6 +1796,195 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+main_dude/GameState.o: main_dude/GameState.cpp.o
+
+.PHONY : main_dude/GameState.o
+
+# target to build an object file
+main_dude/GameState.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.o
+.PHONY : main_dude/GameState.cpp.o
+
+main_dude/GameState.i: main_dude/GameState.cpp.i
+
+.PHONY : main_dude/GameState.i
+
+# target to preprocess a source file
+main_dude/GameState.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.i
+.PHONY : main_dude/GameState.cpp.i
+
+main_dude/GameState.s: main_dude/GameState.cpp.s
+
+.PHONY : main_dude/GameState.s
+
+# target to generate assembly for a file
+main_dude/GameState.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/GameState.cpp.s
+.PHONY : main_dude/GameState.cpp.s
+
+main_dude/MainDude.o: main_dude/MainDude.cpp.o
+
+.PHONY : main_dude/MainDude.o
+
+# target to build an object file
+main_dude/MainDude.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.o
+.PHONY : main_dude/MainDude.cpp.o
+
+main_dude/MainDude.i: main_dude/MainDude.cpp.i
+
+.PHONY : main_dude/MainDude.i
+
+# target to preprocess a source file
+main_dude/MainDude.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.i
+.PHONY : main_dude/MainDude.cpp.i
+
+main_dude/MainDude.s: main_dude/MainDude.cpp.s
+
+.PHONY : main_dude/MainDude.s
+
+# target to generate assembly for a file
+main_dude/MainDude.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/MainDude.cpp.s
+.PHONY : main_dude/MainDude.cpp.s
+
+main_dude/Whip.o: main_dude/Whip.cpp.o
+
+.PHONY : main_dude/Whip.o
+
+# target to build an object file
+main_dude/Whip.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.o
+.PHONY : main_dude/Whip.cpp.o
+
+main_dude/Whip.i: main_dude/Whip.cpp.i
+
+.PHONY : main_dude/Whip.i
+
+# target to preprocess a source file
+main_dude/Whip.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.i
+.PHONY : main_dude/Whip.cpp.i
+
+main_dude/Whip.s: main_dude/Whip.cpp.s
+
+.PHONY : main_dude/Whip.s
+
+# target to generate assembly for a file
+main_dude/Whip.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main_dude/Whip.cpp.s
+.PHONY : main_dude/Whip.cpp.s
+
+memory/OamManager.o: memory/OamManager.cpp.o
+
+.PHONY : memory/OamManager.o
+
+# target to build an object file
+memory/OamManager.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.o
+.PHONY : memory/OamManager.cpp.o
+
+memory/OamManager.i: memory/OamManager.cpp.i
+
+.PHONY : memory/OamManager.i
+
+# target to preprocess a source file
+memory/OamManager.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.i
+.PHONY : memory/OamManager.cpp.i
+
+memory/OamManager.s: memory/OamManager.cpp.s
+
+.PHONY : memory/OamManager.s
+
+# target to generate assembly for a file
+memory/OamManager.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamManager.cpp.s
+.PHONY : memory/OamManager.cpp.s
+
+memory/OamUtils.o: memory/OamUtils.cpp.o
+
+.PHONY : memory/OamUtils.o
+
+# target to build an object file
+memory/OamUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.o
+.PHONY : memory/OamUtils.cpp.o
+
+memory/OamUtils.i: memory/OamUtils.cpp.i
+
+.PHONY : memory/OamUtils.i
+
+# target to preprocess a source file
+memory/OamUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.i
+.PHONY : memory/OamUtils.cpp.i
+
+memory/OamUtils.s: memory/OamUtils.cpp.s
+
+.PHONY : memory/OamUtils.s
+
+# target to generate assembly for a file
+memory/OamUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/OamUtils.cpp.s
+.PHONY : memory/OamUtils.cpp.s
+
+memory/SpriteInfo.o: memory/SpriteInfo.cpp.o
+
+.PHONY : memory/SpriteInfo.o
+
+# target to build an object file
+memory/SpriteInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.o
+.PHONY : memory/SpriteInfo.cpp.o
+
+memory/SpriteInfo.i: memory/SpriteInfo.cpp.i
+
+.PHONY : memory/SpriteInfo.i
+
+# target to preprocess a source file
+memory/SpriteInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.i
+.PHONY : memory/SpriteInfo.cpp.i
+
+memory/SpriteInfo.s: memory/SpriteInfo.cpp.s
+
+.PHONY : memory/SpriteInfo.s
+
+# target to generate assembly for a file
+memory/SpriteInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteInfo.cpp.s
+.PHONY : memory/SpriteInfo.cpp.s
+
+memory/SpriteUtils.o: memory/SpriteUtils.cpp.o
+
+.PHONY : memory/SpriteUtils.o
+
+# target to build an object file
+memory/SpriteUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.o
+.PHONY : memory/SpriteUtils.cpp.o
+
+memory/SpriteUtils.i: memory/SpriteUtils.cpp.i
+
+.PHONY : memory/SpriteUtils.i
+
+# target to preprocess a source file
+memory/SpriteUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.i
+.PHONY : memory/SpriteUtils.cpp.i
+
+memory/SpriteUtils.s: memory/SpriteUtils.cpp.s
+
+.PHONY : memory/SpriteUtils.s
+
+# target to generate assembly for a file
+memory/SpriteUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/memory/SpriteUtils.cpp.s
+.PHONY : memory/SpriteUtils.cpp.s
 
 sound/SoundUtils.o: sound/SoundUtils.cpp.o
 
@@ -339,6 +2121,33 @@ tiles/MapTile.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.s
 .PHONY : tiles/MapTile.cpp.s
 
+tiles/PopulatingUtils.o: tiles/PopulatingUtils.cpp.o
+
+.PHONY : tiles/PopulatingUtils.o
+
+# target to build an object file
+tiles/PopulatingUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.o
+.PHONY : tiles/PopulatingUtils.cpp.o
+
+tiles/PopulatingUtils.i: tiles/PopulatingUtils.cpp.i
+
+.PHONY : tiles/PopulatingUtils.i
+
+# target to preprocess a source file
+tiles/PopulatingUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.i
+.PHONY : tiles/PopulatingUtils.cpp.i
+
+tiles/PopulatingUtils.s: tiles/PopulatingUtils.cpp.s
+
+.PHONY : tiles/PopulatingUtils.s
+
+# target to generate assembly for a file
+tiles/PopulatingUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/PopulatingUtils.cpp.s
+.PHONY : tiles/PopulatingUtils.cpp.s
+
 time/TimeUtils.o: time/TimeUtils.cpp.o
 
 .PHONY : time/TimeUtils.o
@@ -366,6 +2175,141 @@ time/TimeUtils.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.s
 .PHONY : time/TimeUtils.cpp.s
 
+treasures/RubyBig.o: treasures/RubyBig.cpp.o
+
+.PHONY : treasures/RubyBig.o
+
+# target to build an object file
+treasures/RubyBig.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.o
+.PHONY : treasures/RubyBig.cpp.o
+
+treasures/RubyBig.i: treasures/RubyBig.cpp.i
+
+.PHONY : treasures/RubyBig.i
+
+# target to preprocess a source file
+treasures/RubyBig.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.i
+.PHONY : treasures/RubyBig.cpp.i
+
+treasures/RubyBig.s: treasures/RubyBig.cpp.s
+
+.PHONY : treasures/RubyBig.s
+
+# target to generate assembly for a file
+treasures/RubyBig.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubyBig.cpp.s
+.PHONY : treasures/RubyBig.cpp.s
+
+treasures/RubySmall.o: treasures/RubySmall.cpp.o
+
+.PHONY : treasures/RubySmall.o
+
+# target to build an object file
+treasures/RubySmall.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.o
+.PHONY : treasures/RubySmall.cpp.o
+
+treasures/RubySmall.i: treasures/RubySmall.cpp.i
+
+.PHONY : treasures/RubySmall.i
+
+# target to preprocess a source file
+treasures/RubySmall.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.i
+.PHONY : treasures/RubySmall.cpp.i
+
+treasures/RubySmall.s: treasures/RubySmall.cpp.s
+
+.PHONY : treasures/RubySmall.s
+
+# target to generate assembly for a file
+treasures/RubySmall.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/RubySmall.cpp.s
+.PHONY : treasures/RubySmall.cpp.s
+
+treasures/SingleGoldbar.o: treasures/SingleGoldbar.cpp.o
+
+.PHONY : treasures/SingleGoldbar.o
+
+# target to build an object file
+treasures/SingleGoldbar.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.o
+.PHONY : treasures/SingleGoldbar.cpp.o
+
+treasures/SingleGoldbar.i: treasures/SingleGoldbar.cpp.i
+
+.PHONY : treasures/SingleGoldbar.i
+
+# target to preprocess a source file
+treasures/SingleGoldbar.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.i
+.PHONY : treasures/SingleGoldbar.cpp.i
+
+treasures/SingleGoldbar.s: treasures/SingleGoldbar.cpp.s
+
+.PHONY : treasures/SingleGoldbar.s
+
+# target to generate assembly for a file
+treasures/SingleGoldbar.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/SingleGoldbar.cpp.s
+.PHONY : treasures/SingleGoldbar.cpp.s
+
+treasures/TripleGoldbar.o: treasures/TripleGoldbar.cpp.o
+
+.PHONY : treasures/TripleGoldbar.o
+
+# target to build an object file
+treasures/TripleGoldbar.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.o
+.PHONY : treasures/TripleGoldbar.cpp.o
+
+treasures/TripleGoldbar.i: treasures/TripleGoldbar.cpp.i
+
+.PHONY : treasures/TripleGoldbar.i
+
+# target to preprocess a source file
+treasures/TripleGoldbar.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.i
+.PHONY : treasures/TripleGoldbar.cpp.i
+
+treasures/TripleGoldbar.s: treasures/TripleGoldbar.cpp.s
+
+.PHONY : treasures/TripleGoldbar.s
+
+# target to generate assembly for a file
+treasures/TripleGoldbar.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/TripleGoldbar.cpp.s
+.PHONY : treasures/TripleGoldbar.cpp.s
+
+treasures/_BaseTreasure.o: treasures/_BaseTreasure.cpp.o
+
+.PHONY : treasures/_BaseTreasure.o
+
+# target to build an object file
+treasures/_BaseTreasure.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.o
+.PHONY : treasures/_BaseTreasure.cpp.o
+
+treasures/_BaseTreasure.i: treasures/_BaseTreasure.cpp.i
+
+.PHONY : treasures/_BaseTreasure.i
+
+# target to preprocess a source file
+treasures/_BaseTreasure.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.i
+.PHONY : treasures/_BaseTreasure.cpp.i
+
+treasures/_BaseTreasure.s: treasures/_BaseTreasure.cpp.s
+
+.PHONY : treasures/_BaseTreasure.s
+
+# target to generate assembly for a file
+treasures/_BaseTreasure.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/treasures/_BaseTreasure.cpp.s
+.PHONY : treasures/_BaseTreasure.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -375,15 +2319,213 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... spelunkypsp"
 	@echo "... edit_cache"
+	@echo "... GameLoop.o"
+	@echo "... GameLoop.i"
+	@echo "... GameLoop.s"
+	@echo "... _interfaces/IBase.o"
+	@echo "... _interfaces/IBase.i"
+	@echo "... _interfaces/IBase.s"
+	@echo "... _interfaces/ICollidable.o"
+	@echo "... _interfaces/ICollidable.i"
+	@echo "... _interfaces/ICollidable.s"
+	@echo "... _interfaces/IPickupable.o"
+	@echo "... _interfaces/IPickupable.i"
+	@echo "... _interfaces/IPickupable.s"
+	@echo "... _interfaces/IRenderable.o"
+	@echo "... _interfaces/IRenderable.i"
+	@echo "... _interfaces/IRenderable.s"
+	@echo "... _interfaces/ShoppingObject.o"
+	@echo "... _interfaces/ShoppingObject.i"
+	@echo "... _interfaces/ShoppingObject.s"
+	@echo "... animations/Blood.o"
+	@echo "... animations/Blood.i"
+	@echo "... animations/Blood.s"
+	@echo "... animations/BloodElement.o"
+	@echo "... animations/BloodElement.i"
+	@echo "... animations/BloodElement.s"
+	@echo "... animations/Bone.o"
+	@echo "... animations/Bone.i"
+	@echo "... animations/Bone.s"
+	@echo "... animations/FakeSkeleton.o"
+	@echo "... animations/FakeSkeleton.i"
+	@echo "... animations/FakeSkeleton.s"
+	@echo "... animations/FallPoof.o"
+	@echo "... animations/FallPoof.i"
+	@echo "... animations/FallPoof.s"
+	@echo "... animations/Flame.o"
+	@echo "... animations/Flame.i"
+	@echo "... animations/Flame.s"
+	@echo "... animations/FlameElement.o"
+	@echo "... animations/FlameElement.i"
+	@echo "... animations/FlameElement.s"
 	@echo "... camera/Camera.o"
 	@echo "... camera/Camera.i"
 	@echo "... camera/Camera.s"
+	@echo "... collisions/Collisions.o"
+	@echo "... collisions/Collisions.i"
+	@echo "... collisions/Collisions.s"
+	@echo "... collisions/CollisionsUtils.o"
+	@echo "... collisions/CollisionsUtils.i"
+	@echo "... collisions/CollisionsUtils.s"
+	@echo "... creatures/Bat.o"
+	@echo "... creatures/Bat.i"
+	@echo "... creatures/Bat.s"
+	@echo "... creatures/Boulder.o"
+	@echo "... creatures/Boulder.i"
+	@echo "... creatures/Boulder.s"
+	@echo "... creatures/Bullet.o"
+	@echo "... creatures/Bullet.i"
+	@echo "... creatures/Bullet.s"
+	@echo "... creatures/Caveman.o"
+	@echo "... creatures/Caveman.i"
+	@echo "... creatures/Caveman.s"
+	@echo "... creatures/Damsel.o"
+	@echo "... creatures/Damsel.i"
+	@echo "... creatures/Damsel.s"
+	@echo "... creatures/Shopkeeper.o"
+	@echo "... creatures/Shopkeeper.i"
+	@echo "... creatures/Shopkeeper.s"
+	@echo "... creatures/Skeleton.o"
+	@echo "... creatures/Skeleton.i"
+	@echo "... creatures/Skeleton.s"
+	@echo "... creatures/Snake.o"
+	@echo "... creatures/Snake.i"
+	@echo "... creatures/Snake.s"
+	@echo "... creatures/Spider.o"
+	@echo "... creatures/Spider.i"
+	@echo "... creatures/Spider.s"
+	@echo "... creatures/Spikes.o"
+	@echo "... creatures/Spikes.i"
+	@echo "... creatures/Spikes.s"
+	@echo "... creatures/_BaseCreature.o"
+	@echo "... creatures/_BaseCreature.i"
+	@echo "... creatures/_BaseCreature.s"
+	@echo "... decorations/ArchSign.o"
+	@echo "... decorations/ArchSign.i"
+	@echo "... decorations/ArchSign.s"
+	@echo "... decorations/ArrowTrap.o"
+	@echo "... decorations/ArrowTrap.i"
+	@echo "... decorations/ArrowTrap.s"
+	@echo "... decorations/Blast.o"
+	@echo "... decorations/Blast.i"
+	@echo "... decorations/Blast.s"
+	@echo "... decorations/Copyrights.o"
+	@echo "... decorations/Copyrights.i"
+	@echo "... decorations/Copyrights.s"
+	@echo "... decorations/Explosion.o"
+	@echo "... decorations/Explosion.i"
+	@echo "... decorations/Explosion.s"
+	@echo "... decorations/GotCollectible.o"
+	@echo "... decorations/GotCollectible.i"
+	@echo "... decorations/GotCollectible.s"
+	@echo "... decorations/Lamp.o"
+	@echo "... decorations/Lamp.i"
+	@echo "... decorations/Lamp.s"
+	@echo "... decorations/RockSign.o"
+	@echo "... decorations/RockSign.i"
+	@echo "... decorations/RockSign.s"
+	@echo "... decorations/RopeElement.o"
+	@echo "... decorations/RopeElement.i"
+	@echo "... decorations/RopeElement.s"
+	@echo "... decorations/ShoppingIcon.o"
+	@echo "... decorations/ShoppingIcon.i"
+	@echo "... decorations/ShoppingIcon.s"
+	@echo "... decorations/Smooch.o"
+	@echo "... decorations/Smooch.i"
+	@echo "... decorations/Smooch.s"
+	@echo "... decorations/SpelunkyTitle.o"
+	@echo "... decorations/SpelunkyTitle.i"
+	@echo "... decorations/SpelunkyTitle.s"
+	@echo "... hud/Hud.o"
+	@echo "... hud/Hud.i"
+	@echo "... hud/Hud.s"
 	@echo "... input/InputHandler.o"
 	@echo "... input/InputHandler.i"
 	@echo "... input/InputHandler.s"
+	@echo "... items/Arrow.o"
+	@echo "... items/Arrow.i"
+	@echo "... items/Arrow.s"
+	@echo "... items/Bomb.o"
+	@echo "... items/Bomb.i"
+	@echo "... items/Bomb.s"
+	@echo "... items/Cape.o"
+	@echo "... items/Cape.i"
+	@echo "... items/Cape.s"
+	@echo "... items/Chest.o"
+	@echo "... items/Chest.i"
+	@echo "... items/Chest.s"
+	@echo "... items/Compass.o"
+	@echo "... items/Compass.i"
+	@echo "... items/Compass.s"
+	@echo "... items/Crate.o"
+	@echo "... items/Crate.i"
+	@echo "... items/Crate.s"
+	@echo "... items/Glove.o"
+	@echo "... items/Glove.i"
+	@echo "... items/Glove.s"
+	@echo "... items/GoldenIdol.o"
+	@echo "... items/GoldenIdol.i"
+	@echo "... items/GoldenIdol.s"
+	@echo "... items/Jar.o"
+	@echo "... items/Jar.i"
+	@echo "... items/Jar.s"
+	@echo "... items/Jetpack.o"
+	@echo "... items/Jetpack.i"
+	@echo "... items/Jetpack.s"
+	@echo "... items/Mitt.o"
+	@echo "... items/Mitt.i"
+	@echo "... items/Mitt.s"
+	@echo "... items/Pistol.o"
+	@echo "... items/Pistol.i"
+	@echo "... items/Pistol.s"
+	@echo "... items/Rock.o"
+	@echo "... items/Rock.i"
+	@echo "... items/Rock.s"
+	@echo "... items/Rope.o"
+	@echo "... items/Rope.i"
+	@echo "... items/Rope.s"
+	@echo "... items/Shotgun.o"
+	@echo "... items/Shotgun.i"
+	@echo "... items/Shotgun.s"
+	@echo "... items/Skull.o"
+	@echo "... items/Skull.i"
+	@echo "... items/Skull.s"
+	@echo "... items/SpikeShoes.o"
+	@echo "... items/SpikeShoes.i"
+	@echo "... items/SpikeShoes.s"
+	@echo "... items/SpringShoes.o"
+	@echo "... items/SpringShoes.i"
+	@echo "... items/SpringShoes.s"
+	@echo "... items/_BaseItem.o"
+	@echo "... items/_BaseItem.i"
+	@echo "... items/_BaseItem.s"
+	@echo "... items/_ItemsUtils.o"
+	@echo "... items/_ItemsUtils.i"
+	@echo "... items/_ItemsUtils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_dude/GameState.o"
+	@echo "... main_dude/GameState.i"
+	@echo "... main_dude/GameState.s"
+	@echo "... main_dude/MainDude.o"
+	@echo "... main_dude/MainDude.i"
+	@echo "... main_dude/MainDude.s"
+	@echo "... main_dude/Whip.o"
+	@echo "... main_dude/Whip.i"
+	@echo "... main_dude/Whip.s"
+	@echo "... memory/OamManager.o"
+	@echo "... memory/OamManager.i"
+	@echo "... memory/OamManager.s"
+	@echo "... memory/OamUtils.o"
+	@echo "... memory/OamUtils.i"
+	@echo "... memory/OamUtils.s"
+	@echo "... memory/SpriteInfo.o"
+	@echo "... memory/SpriteInfo.i"
+	@echo "... memory/SpriteInfo.s"
+	@echo "... memory/SpriteUtils.o"
+	@echo "... memory/SpriteUtils.i"
+	@echo "... memory/SpriteUtils.s"
 	@echo "... sound/SoundUtils.o"
 	@echo "... sound/SoundUtils.i"
 	@echo "... sound/SoundUtils.s"
@@ -399,9 +2541,27 @@ help:
 	@echo "... tiles/MapTile.o"
 	@echo "... tiles/MapTile.i"
 	@echo "... tiles/MapTile.s"
+	@echo "... tiles/PopulatingUtils.o"
+	@echo "... tiles/PopulatingUtils.i"
+	@echo "... tiles/PopulatingUtils.s"
 	@echo "... time/TimeUtils.o"
 	@echo "... time/TimeUtils.i"
 	@echo "... time/TimeUtils.s"
+	@echo "... treasures/RubyBig.o"
+	@echo "... treasures/RubyBig.i"
+	@echo "... treasures/RubyBig.s"
+	@echo "... treasures/RubySmall.o"
+	@echo "... treasures/RubySmall.i"
+	@echo "... treasures/RubySmall.s"
+	@echo "... treasures/SingleGoldbar.o"
+	@echo "... treasures/SingleGoldbar.i"
+	@echo "... treasures/SingleGoldbar.s"
+	@echo "... treasures/TripleGoldbar.o"
+	@echo "... treasures/TripleGoldbar.i"
+	@echo "... treasures/TripleGoldbar.s"
+	@echo "... treasures/_BaseTreasure.o"
+	@echo "... treasures/_BaseTreasure.i"
+	@echo "... treasures/_BaseTreasure.s"
 .PHONY : help
 
 

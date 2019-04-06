@@ -5,10 +5,10 @@
 #ifndef SPELUNKYDS_IRENDERABLE_H
 #define SPELUNKYDS_IRENDERABLE_H
 
-#include <nds.h>
 
-#include "../../memory/SpritesheetType.hpp"
+#include <psptypes.h>
 #include "IBase.h"
+#include "../memory/SpritesheetType.hpp"
 
 // Renderable provides fields neccesary to render graphic on screen, which are:
 // * xy position

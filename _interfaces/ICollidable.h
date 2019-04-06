@@ -5,10 +5,9 @@
 #ifndef SPELUNKYDS_ICOLLIDABLE_H
 #define SPELUNKYDS_ICOLLIDABLE_H
 
-#include <nds.h>
-
+#include <psptypes.h>
 #include "IBase.h"
-#include "../../tiles/MapTile.hpp"
+#include "../tiles/MapTile.hpp"
 
 // Collidable provides fields and functions neccessary to:
 // * check collisions between two Collidable objects
@@ -85,7 +84,7 @@ public:
 
     float _gravity;
 
-    // Updates moving time, if overflows value, then updates speed & xy positions, and checking collisions.
+    // Updates moving timer, if overflows value, then updates speed & xy positions, and checking collisions.
     // Should be called every frame.
     void update_collidable();
 

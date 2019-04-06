@@ -90,10 +90,250 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dbeef/spelunky-psp/GameLoop.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/GameLoop.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_common/Orientation.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IBase.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IBase.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/ICollidable.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/ICollidable.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IPickupable.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IPickupable.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IRenderable.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/IRenderable.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/ShoppingObject.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/_interfaces/ShoppingObject.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Blood.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Blood.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/BloodElement.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/BloodElement.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Bone.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Bone.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FakeSkeleton.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FakeSkeleton.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FallPoof.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FallPoof.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Flame.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/Flame.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FlameElement.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/animations/FlameElement.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/camera/Camera.cpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/camera/Camera.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/collisions/Collisions.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/collisions/Collisions.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/collisions/CollisionsUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/collisions/CollisionsUtils.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/console/ConsoleUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Bat.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Bat.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Boulder.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Boulder.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Bullet.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Bullet.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Caveman.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Caveman.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/CreatureType.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Damsel.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Damsel.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Shopkeeper.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Shopkeeper.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Skeleton.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Skeleton.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Snake.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Snake.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Spider.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Spider.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Spikes.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/Spikes.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/_BaseCreature.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/creatures/_BaseCreature.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ArchSign.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ArchSign.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ArrowTrap.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ArrowTrap.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Blast.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Blast.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Copyrights.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Copyrights.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Explosion.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Explosion.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/GotCollectible.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/GotCollectible.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Lamp.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Lamp.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/RockSign.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/RockSign.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/RopeElement.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/RopeElement.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ShoppingIcon.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/ShoppingIcon.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Smooch.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/Smooch.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/SpelunkyTitle.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/SpelunkyTitle.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/decorations/_BaseDecoration.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/globals/GlobalsDeclarations.hpp">
@@ -102,13 +342,187 @@
 		<Unit filename="/home/dbeef/spelunky-psp/globals/GlobalsDefinitions.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/hud/Hud.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/hud/Hud.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/input/InputHandler.cpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/input/InputHandler.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Arrow.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Arrow.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Bomb.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Bomb.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Cape.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Cape.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Chest.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Chest.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Compass.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Compass.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Crate.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Crate.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Glove.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Glove.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/GoldenIdol.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/GoldenIdol.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Jar.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Jar.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Jetpack.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Jetpack.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Mitt.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Mitt.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Pistol.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Pistol.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Rock.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Rock.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Rope.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Rope.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Shotgun.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Shotgun.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Skull.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/Skull.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/SpikeShoes.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/SpikeShoes.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/SpringShoes.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/SpringShoes.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/_BaseItem.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/_BaseItem.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/_ItemsUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/items/_ItemsUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/main.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/GameState.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/GameState.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/MainDude.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/MainDude.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/Whip.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/main_dude/Whip.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/OamManager.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/OamManager.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/OamType.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/OamUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/OamUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/SpriteInfo.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/SpriteInfo.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/SpriteUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/SpriteUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/SpritesheetType.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/rooms/AltarRoom.hpp">
@@ -180,6 +594,12 @@
 		<Unit filename="/home/dbeef/spelunky-psp/tiles/MapTileType.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/tiles/PopulatingUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/tiles/PopulatingUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/tiles/SplashScreenType.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
@@ -190,6 +610,36 @@
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/time/TimeUtils.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/RubyBig.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/RubyBig.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/RubySmall.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/RubySmall.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/SingleGoldbar.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/SingleGoldbar.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/TripleGoldbar.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/TripleGoldbar.h">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/_BaseTreasure.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/treasures/_BaseTreasure.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/utils/Consts.h">

@@ -3,7 +3,7 @@
 //
 
 #include "IBase.h"
-#include "../../GlobalsDeclarations.hpp"
+#include "../globals/GlobalsDeclarations.hpp"
 
 void IBase::set_pickuped_position_not_checking(
         int pickup_offset_x_left,

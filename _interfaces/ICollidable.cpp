@@ -3,13 +3,11 @@
 //
 
 #include <cmath>
-#include <maxmod9.h>
-
-#include "../../collisions/Collisions.hpp"
-#include "../../tiles/LevelRenderingUtils.hpp"
-#include "../../GlobalsDeclarations.hpp"
+#include <cstdlib>
 #include "ICollidable.h"
-#include "../../../build/soundbank.h"
+#include "../collisions/Collisions.hpp"
+#include "../globals/GlobalsDeclarations.hpp"
+#include "../tiles/LevelRenderingUtils.hpp"
 
 void ICollidable::update_collisions_with_map(int x_current_pos_in_tiles, int y_current_pos_in_tiles) {
     Collisions::getNeighboringTiles(global::current_level->map_tiles, x_current_pos_in_tiles,

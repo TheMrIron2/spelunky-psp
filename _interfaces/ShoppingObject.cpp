@@ -4,7 +4,7 @@
 
 
 #include "ShoppingObject.h"
-#include "../../GlobalsDeclarations.hpp"
+#include "../globals/GlobalsDeclarations.hpp"
 
 void ShoppingObject::init_anim_icon() {
     if (!_bought) {

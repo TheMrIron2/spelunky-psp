@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dbeef/spelunky-psp/tiles/LevelGenerator.cpp" "/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o"
   "/home/dbeef/spelunky-psp/tiles/LevelRenderingUtils.cpp" "/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o"
   "/home/dbeef/spelunky-psp/tiles/MapTile.cpp" "/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o"
-  "/home/dbeef/spelunky-psp/timer/Timer.cpp" "/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o"
+  "/home/dbeef/spelunky-psp/time/TimeUtils.cpp" "/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

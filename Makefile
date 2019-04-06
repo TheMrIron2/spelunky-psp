@@ -1,6 +1,6 @@
 TARGET = sprite
 
-SOURCES		:=	. camera common input rooms tiles timer utils
+SOURCES		:=	. camera common input rooms tiles time utils
 CFILES		:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.c))
 CPPFILES	:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.cpp))
 PRECOMPILED	:=	$(foreach dir,$(SOURCES), $(wildcard $(dir)/*.o))

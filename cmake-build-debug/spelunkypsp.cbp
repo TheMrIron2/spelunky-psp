@@ -180,10 +180,10 @@
 		<Unit filename="/home/dbeef/spelunky-psp/tiles/TileOrientation.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
-		<Unit filename="/home/dbeef/spelunky-psp/timer/Timer.cpp">
+		<Unit filename="/home/dbeef/spelunky-psp/time/TimeUtils.cpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
-		<Unit filename="/home/dbeef/spelunky-psp/timer/Timer.h">
+		<Unit filename="/home/dbeef/spelunky-psp/time/TimeUtils.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/utils/Consts.h">

@@ -81,33 +81,9 @@ CMakeFiles/spelunkypsp.dir/main.cpp.o.provides: CMakeFiles/spelunkypsp.dir/main.
 CMakeFiles/spelunkypsp.dir/main.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/main.cpp.o
 
 
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o: ../timer/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o -c /home/dbeef/spelunky-psp/timer/Timer.cpp
-
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/timer/Timer.cpp > CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.i
-
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/timer/Timer.cpp -o CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.s
-
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.requires:
-
-.PHONY : CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.requires
-
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.provides: CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.provides.build
-.PHONY : CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.provides
-
-CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o
-
-
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o: ../tiles/Level.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o -c /home/dbeef/spelunky-psp/tiles/Level.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o.provides.build: CMakeFiles/spelunky
 
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o: ../tiles/MapTile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o -c /home/dbeef/spelunky-psp/tiles/MapTile.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o.provides.build: CMakeFiles/spelun
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o: ../tiles/LevelRenderingUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o -c /home/dbeef/spelunky-psp/tiles/LevelRenderingUtils.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o.provides.build: CMake
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o: ../tiles/LevelGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o -c /home/dbeef/spelunky-psp/tiles/LevelGenerator.cpp
 
 CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o: ../input/InputHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o -c /home/dbeef/spelunky-psp/input/InputHandler.cpp
 
 CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o.provides.build: CMakeFiles/s
 
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o: ../camera/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o -c /home/dbeef/spelunky-psp/camera/Camera.cpp
 
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.i: cmake_force
@@ -249,28 +225,52 @@ CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o.provides: CMakeFiles/spelunkypsp.
 CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o
 
 
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o: CMakeFiles/spelunkypsp.dir/flags.make
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o: ../time/TimeUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o -c /home/dbeef/spelunky-psp/time/TimeUtils.cpp
+
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbeef/spelunky-psp/time/TimeUtils.cpp > CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.i
+
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbeef/spelunky-psp/time/TimeUtils.cpp -o CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.s
+
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.requires
+
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.provides: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.provides
+
+CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.provides.build: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o
+
+
 # Object files for target spelunkypsp
 spelunkypsp_OBJECTS = \
 "CMakeFiles/spelunkypsp.dir/main.cpp.o" \
-"CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o" \
 "CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o" \
-"CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
+"CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o" \
+"CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
 
 # External object files for target spelunkypsp
 spelunkypsp_EXTERNAL_OBJECTS =
 
 spelunkypsp: CMakeFiles/spelunkypsp.dir/main.cpp.o
-spelunkypsp: CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o
+spelunkypsp: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o
 spelunkypsp: CMakeFiles/spelunkypsp.dir/build.make
 spelunkypsp: CMakeFiles/spelunkypsp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dbeef/spelunky-psp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable spelunkypsp"
@@ -282,13 +282,13 @@ CMakeFiles/spelunkypsp.dir/build: spelunkypsp
 .PHONY : CMakeFiles/spelunkypsp.dir/build
 
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/main.cpp.o.requires
-CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/Level.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/LevelRenderingUtils.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/tiles/LevelGenerator.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o.requires
 CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o.requires
+CMakeFiles/spelunkypsp.dir/requires: CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o.requires
 
 .PHONY : CMakeFiles/spelunkypsp.dir/requires
 

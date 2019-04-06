@@ -14,6 +14,7 @@ namespace global {
     //https://softwareengineering.stackexchange.com/questions/245236/is-heap-fragmentation-a-problem-in-bare-metal-arm-with-g
     void init_globals() {
         input_handler = new InputHandler();
+        timer = new float;
     }
 
 }

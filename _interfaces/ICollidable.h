@@ -85,7 +85,7 @@ public:
 
     float _gravity;
 
-    // Updates moving timer, if overflows value, then updates speed & xy positions, and checking collisions.
+    // Updates moving time, if overflows value, then updates speed & xy positions, and checking collisions.
     // Should be called every frame.
     void update_collidable();
 

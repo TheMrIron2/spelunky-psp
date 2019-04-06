@@ -15,7 +15,7 @@
 
 #include "glchk.h"
 #include "input/InputHandler.h"
-#include "timer/Timer.h"
+#include "time/TimeUtils.h"
 #include "utils/Consts.h"
 #include "tiles/LevelRenderingUtils.hpp"
 
@@ -38,7 +38,6 @@ PSP_MODULE_INFO("Spelunky", 0, 1, 1);
 PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
 
 
-static Timer timer;
 static Camera *camera = new Camera();
 static Level *level = new Level(camera);
 
@@ -63,30 +62,13 @@ void reshape(int w, int h) {
 }
 
 
-
 #define NTEX    1
 static GLuint texture_indexes[NTEX];
-bool passed = true;
 
 static void display() {
-    static Timer timer;
-    timer.update();
-    static float delta = 0;
-    delta = timer.last_delta;
 
-    // limiting to 30 fps?
-//    if(!passed) {
-//        if (delta < 0.017f) {
-//            glutSwapBuffers();
-//            glutPostRedisplay();
-//            passed = true;
-//            return;
-//        }
-//    }
-//
-//    passed = false;
+    time_utils::update_ms_since_last_frame();
 
-//    GLCHK(glShadeModel(GL_CLAMP));
     GLCHK(glShadeModel(GL_SMOOTH));
     GLCHK(glClear(GL_COLOR_BUFFER_BIT));
     GLCHK(glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE));
@@ -98,12 +80,6 @@ static void display() {
     glutSwapBuffers();
     glutPostRedisplay();
 
-    printf("%f %f \n", camera->x, camera->y);
-//#if SYS
-//    usleep(1000000/30);
-//#endif
-
-
     if(global::input_handler->a_key_down) camera->x += 1.0 / 16;
     if(global::input_handler->y_key_down) camera->x -= 1.0 / 16;
     if(global::input_handler->x_key_down) camera->y -= 1.0 / 16;
@@ -113,7 +89,6 @@ static void display() {
 
 
 int main(int argc, char *argv[]) {
-
 
     level->init_map_tiles();
     level->generate_frame();
@@ -138,18 +113,10 @@ int main(int argc, char *argv[]) {
     GLCHK(glEnable(GL_TEXTURE_2D));
 
     eglSwapInterval(reinterpret_cast<void *>(window), 1);
-
-//    std::string textureFragmentShaderSource(mvp_texture_fragment_shader)
-//    std::string textureVertexShaderSource(mvp_texture_vertex_shader);
-//
-//    Shader textureVertexShader(textureVertexShaderSource, GL_VERTEX_SHADER);
-//    Shader textureFragmentShader(textureFragmentShaderSource, GL_FRAGMENT_SHADER);
-//
-//    ShaderProgram textureShader;
-//    textureShader.init(textureFragmentShader, textureVertexShader);
-//
     level->upload_tilesheet();
+    time_utils::start();
     glutMainLoop();
+    time_utils::stop();
     return 0;
 }
 

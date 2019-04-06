@@ -312,32 +312,32 @@ tiles/MapTile.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/tiles/MapTile.cpp.s
 .PHONY : tiles/MapTile.cpp.s
 
-timer/Timer.o: timer/Timer.cpp.o
+time/TimeUtils.o: time/TimeUtils.cpp.o
 
-.PHONY : timer/Timer.o
+.PHONY : time/TimeUtils.o
 
 # target to build an object file
-timer/Timer.cpp.o:
-	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.o
-.PHONY : timer/Timer.cpp.o
+time/TimeUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o
+.PHONY : time/TimeUtils.cpp.o
 
-timer/Timer.i: timer/Timer.cpp.i
+time/TimeUtils.i: time/TimeUtils.cpp.i
 
-.PHONY : timer/Timer.i
+.PHONY : time/TimeUtils.i
 
 # target to preprocess a source file
-timer/Timer.cpp.i:
-	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.i
-.PHONY : timer/Timer.cpp.i
+time/TimeUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.i
+.PHONY : time/TimeUtils.cpp.i
 
-timer/Timer.s: timer/Timer.cpp.s
+time/TimeUtils.s: time/TimeUtils.cpp.s
 
-.PHONY : timer/Timer.s
+.PHONY : time/TimeUtils.s
 
 # target to generate assembly for a file
-timer/Timer.cpp.s:
-	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/timer/Timer.cpp.s
-.PHONY : timer/Timer.cpp.s
+time/TimeUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.s
+.PHONY : time/TimeUtils.cpp.s
 
 # Help Target
 help:
@@ -369,9 +369,9 @@ help:
 	@echo "... tiles/MapTile.o"
 	@echo "... tiles/MapTile.i"
 	@echo "... tiles/MapTile.s"
-	@echo "... timer/Timer.o"
-	@echo "... timer/Timer.i"
-	@echo "... timer/Timer.s"
+	@echo "... time/TimeUtils.o"
+	@echo "... time/TimeUtils.i"
+	@echo "... time/TimeUtils.s"
 .PHONY : help
 
 

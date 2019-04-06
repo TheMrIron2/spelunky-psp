@@ -144,6 +144,12 @@
 		<Unit filename="/home/dbeef/spelunky-psp/rooms/SplashScreenRooms.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/sound/SoundUtils.cpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/sound/SoundUtils.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/tiles/Direction.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>

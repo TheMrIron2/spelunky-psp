@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/spelunkypsp.dir/input/InputHandler.cpp.o"
   "CMakeFiles/spelunkypsp.dir/camera/Camera.cpp.o"
   "CMakeFiles/spelunkypsp.dir/time/TimeUtils.cpp.o"
+  "CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o"
   "spelunkypsp.pdb"
   "spelunkypsp"
 )

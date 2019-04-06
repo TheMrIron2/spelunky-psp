@@ -40,4 +40,6 @@ add_executable(spelunkypsp
         globals/GlobalsDefinitions.hpp
         time/TimeUtils.h
         time/TimeUtils.cpp
+        sound/SoundUtils.cpp
+        sound/SoundUtils.hpp
         )

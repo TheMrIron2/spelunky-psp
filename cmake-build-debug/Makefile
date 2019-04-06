@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sound/SoundUtils.o: sound/SoundUtils.cpp.o
+
+.PHONY : sound/SoundUtils.o
+
+# target to build an object file
+sound/SoundUtils.cpp.o:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.o
+.PHONY : sound/SoundUtils.cpp.o
+
+sound/SoundUtils.i: sound/SoundUtils.cpp.i
+
+.PHONY : sound/SoundUtils.i
+
+# target to preprocess a source file
+sound/SoundUtils.cpp.i:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.i
+.PHONY : sound/SoundUtils.cpp.i
+
+sound/SoundUtils.s: sound/SoundUtils.cpp.s
+
+.PHONY : sound/SoundUtils.s
+
+# target to generate assembly for a file
+sound/SoundUtils.cpp.s:
+	$(MAKE) -f CMakeFiles/spelunkypsp.dir/build.make CMakeFiles/spelunkypsp.dir/sound/SoundUtils.cpp.s
+.PHONY : sound/SoundUtils.cpp.s
+
 tiles/Level.o: tiles/Level.cpp.o
 
 .PHONY : tiles/Level.o
@@ -357,6 +384,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sound/SoundUtils.o"
+	@echo "... sound/SoundUtils.i"
+	@echo "... sound/SoundUtils.s"
 	@echo "... tiles/Level.o"
 	@echo "... tiles/Level.i"
 	@echo "... tiles/Level.s"

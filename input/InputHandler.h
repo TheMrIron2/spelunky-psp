@@ -5,91 +5,54 @@
 #ifndef SPELUNKY_PSP_INPUTHANDLER_H
 #define SPELUNKY_PSP_INPUTHANDLER_H
 
-#include "../camera/Camera.h"
-
-#include <stdlib.h>
-#include <GL/glut.h>
-
-#include <pspkernel.h>
-#include <pspdisplay.h>
-#include <pspdebug.h>
-#include <stdlib.h>
 #include <pspctrl.h>
-#include <pspgu.h>
-#include <pspgum.h>
-#include <stdio.h>
-#include <pspctrl.h>
+
+/**
+ * This class has identical public interface as the SpelunkyDS one.
+ * For keeping codebase coherent, I didn't change 'x' buttons to 'triangle' buttons etc.,
+ * so use this mapping for a reference:
+ *
+ * X -> triangle
+ * Y -> square
+ * A -> circle
+ * B -> cross
+ *
+ * keysDown - recently pressed keys
+ * keysHeld - keys that are currently hold
+ *
+ * Didn't figure out how to read down/held keys differently, so for now all
+ * keys hold value of held keys.
+ */
 
 class InputHandler {
-
 public:
 
-    Camera* _camera;
+    InputHandler();
 
+    void updateInput();
+
+    int keys_held{};
+    int keys_down{};
+    bool stop_handling{};
+
+    bool left_key_held{};
+    bool right_key_held{};
+    bool down_key_held{};
+    bool up_key_held{};
+    bool b_key_held{};
+    bool y_key_held{};
+    bool l_bumper_held{};
+    bool r_bumper_held{};
+    bool r_bumper_down{};
+    bool l_bumper_down{};
+    bool x_key_down{};
+    bool y_key_down{};
+    bool a_key_down{};
+    bool b_key_down{};
+
+private:
     SceCtrlData pad{};
 
-    InputHandler(Camera* camera) : _camera(camera) {
-        sceCtrlSetSamplingCycle(0);
-        sceCtrlSetSamplingMode(PSP_CTRL_MODE_ANALOG);
-    }
-
-    void handle() {
-
-        pspDebugScreenSetXY(0, 2);
-        sceCtrlReadBufferPositive(&pad, 1);
-
-//        //printf("Analog X = %d ", pad.Lx);
-//        //printf("Analog Y = %d \n", pad.Ly);
-
-        if (pad.Buttons != 0) {
-            if (pad.Buttons & PSP_CTRL_SQUARE) {
-                //printf("Square pressed \n");
-                _camera->x -= 2.0f/16;
-            }
-            if (pad.Buttons & PSP_CTRL_TRIANGLE) {
-                //printf("Triangle pressed \n");
-                _camera->y += 2.0f/16;
-            }
-            if (pad.Buttons & PSP_CTRL_CIRCLE) {
-                //printf("Cicle pressed \n");
-                _camera->x += 2.0f/16;
-            }
-            if (pad.Buttons & PSP_CTRL_CROSS) {
-                //printf("Cross pressed \n");
-                _camera->y -= 2.0f/16;
-            }
-
-            if (pad.Buttons & PSP_CTRL_UP) {
-                //printf("Up pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_DOWN) {
-                //printf("Down pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_LEFT) {
-                //printf("Left pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_RIGHT) {
-                //printf("Right pressed \n");
-            }
-
-            if (pad.Buttons & PSP_CTRL_START) {
-                //printf("Start pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_SELECT) {
-                //printf("Select pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_LTRIGGER) {
-                //printf("L-trigger pressed \n");
-            }
-            if (pad.Buttons & PSP_CTRL_RTRIGGER) {
-                //printf("R-trigger pressed \n");
-            }
-        }
-
-
-    }
-
 };
-
 
 #endif //SPELUNKY_PSP_INPUTHANDLER_H

@@ -31,9 +31,11 @@
 #include <time.h>
 #include <angelscript.h>
 
+
 #include "common/callbacks.h"
 #include "common/vram.h"
-
+#include "globals/GlobalsDefinitions.hpp"
+#include "globals/GlobalsDeclarations.hpp"
 
 PSP_MODULE_INFO("Spelunky", 0, 1, 1);
 PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
@@ -42,7 +44,6 @@ PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
 static Timer timer;
 static Camera *camera = new Camera();
 static Level *level = new Level(camera);
-static InputHandler inputHandler(camera);
 
 
 static
@@ -71,7 +72,6 @@ static GLuint texture_indexes[NTEX];
 bool passed = true;
 
 static void display() {
-
     static Timer timer;
     timer.update();
     static float delta = 0;
@@ -96,18 +96,27 @@ static void display() {
     GLCHK(glEnable(GL_BLEND));
     GLCHK(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
-    inputHandler.handle();
+    global::input_handler->updateInput();
     level->write_tiles_to_map();
     glutSwapBuffers();
     glutPostRedisplay();
 
+    printf("%f %f \n", camera->x, camera->y);
 //#if SYS
 //    usleep(1000000/30);
 //#endif
+
+
+    if(global::input_handler->a_key_down) camera->x += 1.0 / 16;
+    if(global::input_handler->y_key_down) camera->x -= 1.0 / 16;
+    if(global::input_handler->x_key_down) camera->y -= 1.0 / 16;
+    if(global::input_handler->b_key_down) camera->y += 1.0 / 16;
+
 }
 
 
 int main(int argc, char *argv[]) {
+
 
     level->init_map_tiles();
     level->generate_frame();
@@ -116,12 +125,11 @@ int main(int argc, char *argv[]) {
 //    level->initialise_tiles_from_splash_screen(MAIN_MENU_UPPER);
 //    level->initialise_tiles_from_splash_screen(MAIN_MENU_LOWER);
 
-    sceCtrlSetSamplingCycle(0);
-    sceCtrlSetSamplingMode(PSP_CTRL_MODE_ANALOG);
+    global::init_globals();
 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
-    glutInitWindowSize(SCREEN_W, SCREEN_H);
+    glutInitWindowSize(SCREEN_WIDTH, SCREEN_HEIGHT);
     glutReshapeFunc(reshape);
     int window = glutCreateWindow(__FILE__);
     glutDisplayFunc(display);
@@ -131,7 +139,6 @@ int main(int argc, char *argv[]) {
     GLCHK(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
     GLCHK(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));
     GLCHK(glEnable(GL_TEXTURE_2D));
-    level->upload_tilesheet();
 
     eglSwapInterval(reinterpret_cast<void *>(window), 1);
 
@@ -144,6 +151,7 @@ int main(int argc, char *argv[]) {
 //    ShaderProgram textureShader;
 //    textureShader.init(textureFragmentShader, textureVertexShader);
 //
+    level->upload_tilesheet();
     glutMainLoop();
     return 0;
 }

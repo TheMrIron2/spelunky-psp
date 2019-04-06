@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(spelunkypsp)
 
-set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD 14)
 
 # Set to your psptoolchain installation dir if environment variable does not exist.
 set(PSPDEV $ENV{PSPDEV})
@@ -16,7 +16,7 @@ include_directories(${PSPDEV}/psp/sdk/include)
 # Using makefile for building but adding target here in CMakeLists since apparently
 # clion won't scan files without it.
 add_executable(spelunkypsp
-        input/InputHandler.h input/InputHandler.cpp main.cpp camera/Camera.cpp camera/Camera.h
+        main.cpp
         timer/Timer.cpp timer/Timer.h utils/Consts.h tiles/MapTileType.h
         rooms/AltarRoom.hpp rooms/ClosedRooms.hpp rooms/EntranceRooms.hpp rooms/ExitRooms.hpp
         rooms/LeftRightDownRooms.hpp rooms/LeftRightRooms.hpp rooms/LeftRightUpRooms.hpp rooms/RoomType.hpp
@@ -32,4 +32,10 @@ add_executable(spelunkypsp
         tiles/LevelRenderingUtils.hpp
         tiles/LevelGenerator.cpp
         tiles/LevelGenerator.hpp
-)
+        input/InputHandler.h
+        input/InputHandler.cpp
+        camera/Camera.cpp
+        camera/Camera.h
+        globals/GlobalsDeclarations.hpp
+        globals/GlobalsDefinitions.hpp
+        )

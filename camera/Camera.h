@@ -5,31 +5,35 @@
 #ifndef SPELUNKYPSP_CAMERA_H
 #define SPELUNKYPSP_CAMERA_H
 
-#include <stdio.h>
-#include <cstdlib>
-#include <cmath>
-#include "../utils/Consts.h"
-
 class Camera {
-
 public:
 
-    Camera()
-    {
-        // center it
-        float tiles_w = SCREEN_W / 16; //30
-        float tiles_h = SCREEN_H / 16; //17
+    Camera();
 
-//        x -= (tiles_w / 2) - 1;
-//        y -= ceil(tiles_h / 2) - 1;
-//
-        //init pos is:
-        // -14, -8
-    }
+    void update();
 
-    float x = 0;
-    float y = 0;
+    void apply_map_boundaries();
+
+    void instant_focus();
+
+    void incremental_focus(int camera_speed);
+
+    inline void shake() { shakescreen_duration_timer = 350; }
+
+    bool follow_main_dude{};
+    double position_update_timer{};
+
+    float x{};
+    float y{};
+
+    double shakescreen_duration_timer{};
+    int x_shake_direction{};
+    int y_shake_direction{};
+
+private:
+
+    void apply_shaking();
+
 };
-
 
 #endif //SPELUNKYPSP_CAMERA_H

@@ -31,9 +31,6 @@
 #include <time.h>
 #include <angelscript.h>
 
-
-#include "common/callbacks.h"
-#include "common/vram.h"
 #include "globals/GlobalsDefinitions.hpp"
 #include "globals/GlobalsDeclarations.hpp"
 

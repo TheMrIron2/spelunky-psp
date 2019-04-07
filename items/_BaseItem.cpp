@@ -21,8 +21,8 @@ void BaseItem::update_sprites_position() {
     if (_render_in_hud) {
 //        _main_sprite_info->entry->priority = OBJPRIORITY_0;
         sprite_utils::set_entry_xy(_main_sprite_info, static_cast<u16>(_x), static_cast<u16>(_y));
-        _sub_sprite_info->entry->isHidden = true;
-        _main_sprite_info->entry->isHidden = false;
+        _sub_sprite_info->isHidden = true;
+        _main_sprite_info->isHidden = false;
     } else {
         int main_x, main_y, sub_x, sub_y;
         get_x_y_viewported(&main_x, &main_y, &sub_x, &sub_y);

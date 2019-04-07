@@ -9,8 +9,8 @@
 namespace sprite_utils {
 
     void set_entry_xy(SpriteInfo *i, u16 x, u16 y) {
-        i->entry->x = x;
-        i->entry->y = y;
+        i->x = x;
+        i->y = y;
     }
 
     u8 *get_frame(u8 *tileset, int frame_size, int frame_offset) {

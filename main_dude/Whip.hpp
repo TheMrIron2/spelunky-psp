@@ -31,6 +31,8 @@ public:
             whip_physical_height,
             CreatureType::WHIP
     ) {
+        _main_sprite_info = new SpriteInfo();
+        _sub_sprite_info = new SpriteInfo();
 //        init_sprites();
     }
 

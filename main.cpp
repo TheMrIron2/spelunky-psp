@@ -3,7 +3,6 @@
 #include <cmath>
 #include <GLES/egl.h>
 
-
 #include "tiles/LevelGenerator.hpp"
 #include "tiles/Level.hpp"
 #include "rooms/ExitRooms.hpp"
@@ -46,7 +45,7 @@ void reshape(int w, int h) {
     GLCHK(glLoadIdentity());
     dumpmat(GL_PROJECTION_MATRIX, "ident proj");
     // 480 / 272 = ~1.7
-    GLCHK(glOrtho(-8 * 1.7, 8 * 1.7, 8, -8, -8, 8));
+    GLCHK(glOrtho(-8.45f * 1.7647058823529411f, 8.45f * 1.7647058823529411f, 8.45f, -8.45f, -8.45f, 8.45f));
     dumpmat(GL_PROJECTION_MATRIX, "ortho proj");
     GLCHK(glMatrixMode(GL_MODELVIEW));
     GLCHK(glLoadIdentity());
@@ -58,7 +57,7 @@ void reshape(int w, int h) {
 }
 
 
-#define NTEX    1
+#define NTEX 8
 static GLuint texture_indexes[NTEX];
 
 int main(int argc, char *argv[]) {
@@ -66,12 +65,7 @@ int main(int argc, char *argv[]) {
     global::init_globals();
 
     global::current_level->init_map_tiles();
-    global::current_level->generate_frame();
-    generate_new_level_layout();
-    global::current_level->initialise_tiles_from_room_layout();
-//    global::current_level->initialise_tiles_from_splash_screen(MAIN_MENU_UPPER);
-//    global::current_level->initialise_tiles_from_splash_screen(MAIN_MENU_LOWER);
-
+    global::current_level->initialise_tiles_from_splash_screen(MAIN_MENU);
 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
@@ -87,10 +81,24 @@ int main(int argc, char *argv[]) {
     GLCHK(glEnable(GL_TEXTURE_2D));
 
     eglSwapInterval(reinterpret_cast<void *>(window), 1);
+
     global::current_level->upload_tilesheet();
+
+    GLint max;
+    // 512
+    glGetIntegerv(GL_MAX_TEXTURE_SIZE, &max);
+    printf("Max texture size: %i\n", max);
+
+    // upload spelunker spritesheet
+    extern unsigned char gfx_spelunker_start[];
+    global::oam_manager->initTexture(&gfx_spelunker_start[0], 64, 512, SpritesheetType::MAIN_DUDE);
+    //
+    global::main_dude = new MainDude(static_cast<int>(global::camera->x + 10), static_cast<int>(global::camera->y + 200));
+
+    global::game_state->reset_main_dude();
+
     time_utils::start();
     glutMainLoop();
-    time_utils::stop();
     return 0;
 }
 

@@ -23,7 +23,7 @@ bool Collisions::checkUpperCollision(MapTile *neighboringTiles[9], int *xPos, in
 
     for (int a = 0; a < 9; a++) {
 
-        if (!neighboringTiles[a]->exists || !neighboringTiles[a]->collidable)
+        if (!neighboringTiles[a] || !neighboringTiles[a]->exists || !neighboringTiles[a]->collidable)
             continue;
 
         w1 = *yPos < (neighboringTiles[a]->y * TILE_H) + TILE_H && (*yPos > (neighboringTiles[a]->y * TILE_H));
@@ -59,13 +59,12 @@ bool Collisions::checkBottomCollision(MapTile *neighboringTiles[9], int *xPos, i
             w1 = (*xPos > (neighboringTiles[a]->x * TILE_W) - (width * 0.75) &&
                   *xPos < (neighboringTiles[a]->x * TILE_W) + (width * 0.75));
             w2 = (*yPos <= neighboringTiles[a]->y * TILE_H) && *yPos + height >= (neighboringTiles[a]->y * TILE_H);
-            collision = w1 && w2;
         } else {
             w1 = (*xPos > (neighboringTiles[a]->x * TILE_W) - (width) &&
                   *xPos < (neighboringTiles[a]->x * TILE_W) + (TILE_W));
             w2 = (*yPos <= neighboringTiles[a]->y * TILE_H) && *yPos + height >= (neighboringTiles[a]->y * TILE_H);
-            collision = w1 && w2;
         }
+        collision = w1 && w2;
 
         if (collision) {
             *ySpeed = (-1) * bouncing_factor * *ySpeed;
@@ -90,7 +89,7 @@ bool Collisions::checkLeftCollision(MapTile *neighboringTiles[9], int *xPos, int
 
     for (int a = 0; a < 9; a++) {
 
-        if (!neighboringTiles[a]->exists || !neighboringTiles[a]->collidable)
+        if (!neighboringTiles[a] || !neighboringTiles[a]->exists || !neighboringTiles[a]->collidable)
             continue;
 
         if (width == 16) {
@@ -181,24 +180,24 @@ void Collisions::getNeighboringTiles(MapTile *mapTiles[32][32], int xx, int yy, 
             *right_down = nullptr;
 
     if (xx > 0)
-        left_middle = mapTiles[xx - 1][yy]->exists ? mapTiles[xx - 1][yy] : nullptr;
+        left_middle = mapTiles[xx - 1][yy] && mapTiles[xx - 1][yy]->exists ? mapTiles[xx - 1][yy] : nullptr;
     if (xx < 31)
-        right_middle = mapTiles[xx + 1][yy]->exists ? mapTiles[xx + 1][yy] : nullptr;
+        right_middle = mapTiles[xx + 1][yy] && mapTiles[xx + 1][yy]->exists ? mapTiles[xx + 1][yy] : nullptr;
     if (yy > 0)
-        up_middle = mapTiles[xx][yy - 1]->exists ? mapTiles[xx][yy - 1] : nullptr;
+        up_middle = mapTiles[xx][yy - 1] && mapTiles[xx][yy - 1]->exists ? mapTiles[xx][yy - 1] : nullptr;
     if (yy < 31)
-        down_middle = mapTiles[xx][yy + 1]->exists ? mapTiles[xx][yy + 1] : nullptr;
+        down_middle = mapTiles[xx][yy + 1] && mapTiles[xx][yy + 1]->exists ? mapTiles[xx][yy + 1] : nullptr;
 
     center = mapTiles[xx][yy]->exists ? mapTiles[xx][yy] : nullptr;
 
     if (xx > 0 && yy > 0)
-        left_up = mapTiles[xx - 1][yy - 1]->exists ? mapTiles[xx - 1][yy - 1] : nullptr;
+        left_up = mapTiles[xx - 1][yy - 1] && mapTiles[xx - 1][yy - 1]->exists ? mapTiles[xx - 1][yy - 1] : nullptr;
     if (xx < 31 && yy > 0)
-        right_up = mapTiles[xx + 1][yy - 1]->exists ? mapTiles[xx + 1][yy - 1] : nullptr;
+        right_up = mapTiles[xx + 1][yy - 1] && mapTiles[xx + 1][yy - 1]->exists ? mapTiles[xx + 1][yy - 1] : nullptr;
     if (xx > 0 && yy < 31)
-        left_down = mapTiles[xx - 1][yy + 1]->exists ? mapTiles[xx - 1][yy + 1] : nullptr;
+        left_down = mapTiles[xx - 1][yy + 1] && mapTiles[xx - 1][yy + 1]->exists ? mapTiles[xx - 1][yy + 1] : nullptr;
     if (xx < 31 && yy < 31)
-        right_down = mapTiles[xx + 1][yy + 1]->exists ? mapTiles[xx + 1][yy + 1] : nullptr;
+        right_down = mapTiles[xx + 1][yy + 1] && mapTiles[xx + 1][yy + 1]->exists ? mapTiles[xx + 1][yy + 1] : nullptr;
 
     out_neighboringTiles[TileOrientation::LEFT_MIDDLE] = left_middle;
     out_neighboringTiles[TileOrientation::RIGHT_MIDDLE] = right_middle;

@@ -27,8 +27,8 @@ void BloodElement::update_creature_specific() {
             currentFrame = 0;
             finished = true;
             _ready_to_dispose = true;
-            mainSpriteInfo->entry->isHidden = true;
-            subSpriteInfo->entry->isHidden = true;
+            mainSpriteInfo->isHidden = true;
+            subSpriteInfo->isHidden = true;
 
         } else
             match_animation();

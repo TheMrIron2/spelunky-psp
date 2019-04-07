@@ -51,9 +51,9 @@ void SpikeShoes::init_sprites() {
     sprite_utils::set_horizontal_flip(false, _main_sprite_info, _sub_sprite_info);
 
     if (_render_in_hud) {
-//        _main_sprite_info->entry->priority = OBJPRIORITY_0;
-        _sub_sprite_info->entry->isHidden = true;
-        _main_sprite_info->entry->isHidden = false;
+//        _main_sprite_info->priority = OBJPRIORITY_0;
+        _sub_sprite_info->isHidden = true;
+        _main_sprite_info->isHidden = false;
     } else
         sprite_utils::set_visibility(true, _main_sprite_info, _sub_sprite_info);
 
@@ -74,9 +74,9 @@ void SpikeShoes::equip() {
         _y = global::hud->items_offset_y;
         global::hud->increment_offset_on_grabbed_item();
 
-        _sub_sprite_info->entry->isHidden = true;
-        _main_sprite_info->entry->isHidden = false;
-//        _main_sprite_info->entry->priority = OBJPRIORITY_0;
+        _sub_sprite_info->isHidden = true;
+        _main_sprite_info->isHidden = false;
+//        _main_sprite_info->priority = OBJPRIORITY_0;
         update_sprites_position();
 
     } else {

@@ -19,6 +19,7 @@ add_executable(spelunkypsp
         main.cpp
         GameLoop.cpp
         GameLoop.hpp
+        memory/Texture.h
         utils/Consts.h tiles/MapTileType.h
         rooms/AltarRoom.hpp rooms/ClosedRooms.hpp rooms/EntranceRooms.hpp rooms/ExitRooms.hpp
         rooms/LeftRightDownRooms.hpp rooms/LeftRightRooms.hpp rooms/LeftRightUpRooms.hpp rooms/RoomType.hpp
@@ -90,7 +91,6 @@ add_executable(spelunkypsp
         memory/OamUtils.cpp
         memory/SpritesheetType.hpp
         memory/OamManager.cpp
-        memory/OamType.hpp
         _interfaces/IBase.cpp
         _interfaces/IRenderable.h
         _interfaces/ShoppingObject.h

@@ -12,177 +12,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d3c44c-3e38-4721-88cd-b18aa1ff2137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameLoop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameLoop.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_common/Orientation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Blood.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Blood.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/BloodElement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/BloodElement.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Bone.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Bone.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FakeSkeleton.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FakeSkeleton.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FallPoof.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FallPoof.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Flame.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/Flame.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FlameElement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/animations/FlameElement.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collisions/Collisions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collisions/Collisions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collisions/CollisionsUtils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collisions/CollisionsUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/ConsoleUtils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Bat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Bat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Boulder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Boulder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Bullet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Bullet.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Caveman.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Caveman.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/CreatureType.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Damsel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Damsel.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Shopkeeper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Shopkeeper.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Skeleton.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Skeleton.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Snake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Snake.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Spider.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Spider.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Spikes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/Spikes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/_BaseCreature.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatures/_BaseCreature.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ArchSign.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ArchSign.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ArrowTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ArrowTrap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Blast.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Blast.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Copyrights.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Copyrights.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Explosion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Explosion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/GotCollectible.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/GotCollectible.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Lamp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Lamp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/RockSign.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/RockSign.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/RopeElement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/RopeElement.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ShoppingIcon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/ShoppingIcon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Smooch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/Smooch.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/SpelunkyTitle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/SpelunkyTitle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorations/_BaseDecoration.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hud/Hud.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hud/Hud.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Arrow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Arrow.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Bomb.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Bomb.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Cape.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Cape.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Chest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Chest.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Compass.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Compass.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Crate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Crate.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Glove.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Glove.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/GoldenIdol.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/GoldenIdol.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Jar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Jar.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Jetpack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Jetpack.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Mitt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Mitt.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Pistol.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Pistol.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Rock.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Rock.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Rope.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Rope.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Shotgun.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Shotgun.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Skull.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/Skull.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/SpikeShoes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/SpikeShoes.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/SpringShoes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/SpringShoes.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/_BaseItem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/_BaseItem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/_ItemsUtils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items/_ItemsUtils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/GameState.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/GameState.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/MainDude.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/MainDude.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/Whip.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_dude/Whip.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/OamManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/OamManager.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/OamType.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/OamUtils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/OamUtils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/SpriteInfo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/SpriteInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/SpriteUtils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/SpriteUtils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory/SpritesheetType.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiles/PopulatingUtils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiles/PopulatingUtils.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/RubyBig.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/RubyBig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/RubySmall.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/RubySmall.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/SingleGoldbar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/SingleGoldbar.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/TripleGoldbar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/TripleGoldbar.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/_BaseTreasure.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasures/_BaseTreasure.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gfx_spelunker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memory/Texture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spelunky-psp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spelunky-psp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EBOOT.PBP" beforeDir="false" afterPath="$PROJECT_DIR$/EBOOT.PBP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameLoop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameLoop.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_interfaces/ICollidable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/ICollidable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/ICollidable.h" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/ICollidable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IPickupable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IPickupable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IPickupable.h" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IPickupable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IRenderable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IRenderable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/IRenderable.h" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/IRenderable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/ShoppingObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/ShoppingObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_interfaces/ShoppingObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/_interfaces/ShoppingObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spelunkypsp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animations/BloodElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/animations/BloodElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/camera/Camera.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/spelunkypsp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/spelunkypsp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collisions/Collisions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/collisions/Collisions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/_BaseCreature.h" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/_BaseCreature.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx_cavebg.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfxcavebg.raw" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/globals/GlobalsDeclarations.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/globals/GlobalsDeclarations.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/globals/GlobalsDefinitions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/globals/GlobalsDefinitions.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/Compass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/items/Compass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/SpikeShoes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/items/SpikeShoes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/_BaseItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/items/_BaseItem.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dude/GameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_dude/GameState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dude/MainDude.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_dude/MainDude.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dude/MainDude.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_dude/MainDude.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dude/Whip.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_dude/Whip.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/OamManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/OamManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/OamManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/OamManager.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/OamType.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/SpriteInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/SpriteInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/SpriteInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/memory/SpriteInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/SpriteUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/SpriteUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/SpriteUtils.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/SpriteUtils.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/SplashScreenRooms.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/SplashScreenRooms.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sprite.elf" beforeDir="false" afterPath="$PROJECT_DIR$/sprite.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiles/LevelGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/LevelGenerator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiles/LevelGenerator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/LevelGenerator.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiles/LevelRenderingUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/LevelRenderingUtils.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiles/LevelRenderingUtils.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/LevelRenderingUtils.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiles/Level.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/Level.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiles/Level.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/Level.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiles/MapTile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/MapTile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiles/SplashScreenType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tiles/SplashScreenType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/TimeUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/time/TimeUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Consts.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Consts.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -214,11 +84,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="373">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#284#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,144 +96,131 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameLoop.hpp">
+        <entry file="file://$PROJECT_DIR$/main_dude/GameState.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
-                <element signature="e#104#130#0" expanded="true" />
+                <element signature="e#41#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memory/OamManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <element signature="e#116#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+              <folding>
+                <element signature="e#72#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tiles/Level.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="225" selection-start-line="225" selection-end-line="229" selection-end-column="20" />
+              <folding>
+                <element signature="e#41#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#106#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLoop.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glchk.h">
+        <entry file="file://$PROJECT_DIR$/time/TimeUtils.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/time/TimeUtils.h">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globals/GlobalsDefinitions.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-              <folding>
-                <element signature="e#124#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_dude/MainDude.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-              <folding>
-                <element signature="e#857#874#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_dude/Whip.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_dude/MainDude.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="462" selection-start-line="462" selection-end-line="462" />
-              <folding>
-                <element signature="e#41#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>frame</find>
+      <find>running</find>
+      <find>gfx</find>
+      <find>climbing</find>
+      <find>set_sprite</find>
+      <find>match_ani</find>
+      <find>set_sprite_wal</find>
+      <find>sprite_state</find>
+      <find>set</find>
+      <find>set_sprite_falling</find>
+      <find>tile</find>
+      <find>aniMFrame</find>
+      <find>aniMFrame++</find>
+      <find>main_dude-&gt;</find>
+      <find>main_dude-&gt;x</find>
+      <find>tile =</find>
+      <find>main_dude</find>
+      <find>static_cast&lt;u16&gt;(sprite_state) * 6</find>
+      <find>static_cast&lt;u16&gt;(sprite_state)</find>
+      <find>walking</find>
+      <find>down</find>
+      <find>animFrame++</find>
+      <find>global::timer</find>
+      <find>time</find>
+      <find>temp_ti</find>
       <find>tick_before</find>
-      <find>time_uti</find>
-      <find>deb</find>
-      <find>glcal</find>
-      <find>mmeffe</find>
-      <find>tiles</find>
-      <find>level-&gt;</find>
-      <find>place</find>
-      <find>level</find>
-      <find>place_an</find>
-      <find>maxmod</find>
-      <find>gfx_sh</find>
-      <find>gl</find>
-      <find>#include &lt;nds.h&gt;</find>
-      <find>nds.</find>
-      <find>global</find>
-      <find>clean</find>
-      <find>unused</find>
-      <find>new flo</find>
-      <find>colled</find>
-      <find>console</find>
-      <find>consoleClear()</find>
-      <find>sectorize_map</find>
-      <find>po</find>
-      <find>sectorize_ma</find>
-      <find>delete_all_</find>
-      <find>displa</find>
-      <find>manage</find>
-      <find>log</find>
-      <find>main</find>
+      <find>* 6</find>
+      <find>animframe +</find>
+      <find>% 2</find>
+      <find>coorsin</find>
     </findStrings>
     <replaceStrings>
-      <replace>4)</replace>
-      <replace>1</replace>
-      <replace>0.1f</replace>
-      <replace>= 0.1f</replace>
-      <replace>}</replace>
-      <replace>const int</replace>
-      <replace>int</replace>
-      <replace>level</replace>
-      <replace>\t</replace>
-      <replace>x</replace>
-      <replace>0.7f</replace>
-      <replace>256</replace>
-      <replace>3</replace>
       <replace>offset</replace>
       <replace>32 * 32</replace>
       <replace>*</replace>
@@ -382,6 +238,19 @@
       <replace>2.0f/16</replace>
       <replace>global::level-&gt;</replace>
       <replace>global::current_level-&gt;</replace>
+      <replace>,</replace>
+      <replace>9</replace>
+      <replace>7,</replace>
+      <replace>2,</replace>
+      <replace>global::camre</replace>
+      <replace>global::camera</replace>
+      <replace>((float)x / 16)</replace>
+      <replace>(float)x / 16))</replace>
+      <replace>(float)x / 16)</replace>
+      <replace>- ((float) x / 16)</replace>
+      <replace>+ ((float) y / 16)</replace>
+      <replace>+ ((float) y / 16);</replace>
+      <replace>+ ((float) y / 16));</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -390,41 +259,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/items/Jetpack.cpp" />
-        <option value="$PROJECT_DIR$/items/Mitt.cpp" />
-        <option value="$PROJECT_DIR$/items/Mitt.hpp" />
-        <option value="$PROJECT_DIR$/items/Pistol.hpp" />
-        <option value="$PROJECT_DIR$/items/Pistol.cpp" />
-        <option value="$PROJECT_DIR$/items/Rock.hpp" />
-        <option value="$PROJECT_DIR$/items/Rock.cpp" />
-        <option value="$PROJECT_DIR$/items/Rope.cpp" />
-        <option value="$PROJECT_DIR$/items/Rope.hpp" />
-        <option value="$PROJECT_DIR$/items/Shotgun.hpp" />
-        <option value="$PROJECT_DIR$/items/Shotgun.cpp" />
-        <option value="$PROJECT_DIR$/items/Skull.cpp" />
-        <option value="$PROJECT_DIR$/items/SpikeShoes.hpp" />
-        <option value="$PROJECT_DIR$/items/SpikeShoes.cpp" />
-        <option value="$PROJECT_DIR$/items/SpringShoes.cpp" />
-        <option value="$PROJECT_DIR$/items/SpringShoes.hpp" />
-        <option value="$PROJECT_DIR$/main_dude/Whip.cpp" />
-        <option value="$PROJECT_DIR$/main_dude/GameState.hpp" />
-        <option value="$PROJECT_DIR$/memory/OamManager.hpp" />
-        <option value="$PROJECT_DIR$/tiles/LevelGenerator.hpp" />
         <option value="$PROJECT_DIR$/tiles/LevelGenerator.cpp" />
-        <option value="$PROJECT_DIR$/memory/SpriteInfo.h" />
-        <option value="$PROJECT_DIR$/memory/SpriteUtils.hpp" />
         <option value="$PROJECT_DIR$/creatures/_BaseCreature.cpp" />
         <option value="$PROJECT_DIR$/creatures/Shopkeeper.cpp" />
-        <option value="$PROJECT_DIR$/memory/SpriteInfo.cpp" />
-        <option value="$PROJECT_DIR$/memory/OamManager.cpp" />
         <option value="$PROJECT_DIR$/items/Glove.cpp" />
         <option value="$PROJECT_DIR$/items/Crate.cpp" />
         <option value="$PROJECT_DIR$/decorations/SpelunkyTitle.cpp" />
         <option value="$PROJECT_DIR$/animations/Bone.cpp" />
-        <option value="$PROJECT_DIR$/globals/GlobalsDeclarations.hpp" />
         <option value="$PROJECT_DIR$/hud/Hud.cpp" />
-        <option value="$PROJECT_DIR$/main_dude/GameState.cpp" />
-        <option value="$PROJECT_DIR$/animations/BloodElement.cpp" />
         <option value="$PROJECT_DIR$/animations/FallPoof.cpp" />
         <option value="$PROJECT_DIR$/creatures/Spikes.cpp" />
         <option value="$PROJECT_DIR$/tiles/PopulatingUtils.hpp" />
@@ -433,14 +275,41 @@
         <option value="$PROJECT_DIR$/tiles/PopulatingUtils.cpp" />
         <option value="$PROJECT_DIR$/memory/OamUtils.hpp" />
         <option value="$PROJECT_DIR$/memory/OamUtils.cpp" />
-        <option value="$PROJECT_DIR$/globals/GlobalsDefinitions.hpp" />
-        <option value="$PROJECT_DIR$/main_dude/MainDude.cpp" />
+        <option value="$PROJECT_DIR$/GameLoop.hpp" />
+        <option value="$PROJECT_DIR$/utils/Consts.h" />
+        <option value="$PROJECT_DIR$/tiles/SplashScreenType.hpp" />
+        <option value="$PROJECT_DIR$/rooms/SplashScreenRooms.hpp" />
+        <option value="$PROJECT_DIR$/tiles/MapTile.cpp" />
+        <option value="$PROJECT_DIR$/camera/Camera.cpp" />
+        <option value="$PROJECT_DIR$/memory/SpriteUtils.hpp" />
+        <option value="$PROJECT_DIR$/items/Compass.cpp" />
+        <option value="$PROJECT_DIR$/items/_BaseItem.cpp" />
+        <option value="$PROJECT_DIR$/items/SpikeShoes.cpp" />
+        <option value="$PROJECT_DIR$/animations/BloodElement.cpp" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/globals/GlobalsDeclarations.hpp" />
         <option value="$PROJECT_DIR$/main_dude/Whip.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/GameLoop.hpp" />
-        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/main_dude/GameState.cpp" />
+        <option value="$PROJECT_DIR$/memory/OamManager.hpp" />
+        <option value="$PROJECT_DIR$/memory/SpriteInfo.h" />
+        <option value="$PROJECT_DIR$/_interfaces/IBase.h" />
+        <option value="$PROJECT_DIR$/main_dude/MainDude.hpp" />
+        <option value="$PROJECT_DIR$/creatures/_BaseCreature.h" />
+        <option value="$PROJECT_DIR$/collisions/Collisions.cpp" />
+        <option value="$PROJECT_DIR$/pre_build.py" />
+        <option value="$PROJECT_DIR$/memory/Texture.h" />
+        <option value="$PROJECT_DIR$/globals/GlobalsDefinitions.hpp" />
+        <option value="$PROJECT_DIR$/tiles/Level.hpp" />
+        <option value="$PROJECT_DIR$/memory/OamManager.cpp" />
+        <option value="$PROJECT_DIR$/memory/SpriteUtils.cpp" />
+        <option value="$PROJECT_DIR$/_interfaces/ICollidable.cpp" />
         <option value="$PROJECT_DIR$/GameLoop.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/time/TimeUtils.cpp" />
+        <option value="$PROJECT_DIR$/main_dude/MainDude.cpp" />
+        <option value="$PROJECT_DIR$/tiles/Level.cpp" />
+        <option value="$PROJECT_DIR$/memory/SpriteInfo.cpp" />
       </list>
     </option>
   </component>
@@ -450,18 +319,180 @@
     </layout>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="683" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="_interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="animations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="camera" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="collisions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="creatures" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="globals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main_dude" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="memory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="_interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="animations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="camera" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="collisions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="creatures" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="globals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main_dude" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="memory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="_interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="animations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="camera" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="collisions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="creatures" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="globals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main_dude" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="memory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -471,18 +502,38 @@
             </path>
             <path>
               <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="_common" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="spelunkypsp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="_interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="creatures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="main_dude" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="tiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spelunkypsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spelunky-psp" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -496,6 +547,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -561,17 +613,19 @@
       <workItem from="1554186742769" duration="7880000" />
       <workItem from="1554229144371" duration="42000" />
       <workItem from="1554573070321" duration="4040000" />
-      <workItem from="1554577152657" duration="6417000" />
+      <workItem from="1554577152657" duration="7147000" />
+      <workItem from="1554624518857" duration="25420000" />
+      <workItem from="1554655365106" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81998000" />
+    <option name="totallyTimeSpent" value="108915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.2977273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.19318181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5025773" side_tool="true" weight="0.27059612" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -582,7 +636,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5048387" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32860824" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32903227" />
@@ -608,404 +662,357 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/items/SpikeShoes.cpp">
+    <entry file="file://$PROJECT_DIR$/main_dude/GameState.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_interfaces/IRenderable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-          <folding>
-            <element signature="e#41#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/SpikeShoes.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#108#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/SpringShoes.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#42#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/SpringShoes.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="e#111#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/Whip.cpp">
+    <entry file="file://$PROJECT_DIR$/main_dude/Whip.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="61" column="90" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/GameState.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/LevelGenerator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/LevelGenerator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/SpriteUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/SpriteUtils.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/_BaseCreature.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#110#131#0" expanded="true" />
-          </folding>
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/creatures/_BaseCreature.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/Shopkeeper.cpp">
+    <entry file="file://$PROJECT_DIR$/_interfaces/IRenderable.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="333" column="1" selection-start-line="333" selection-start-column="1" selection-end-line="333" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="478">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/Spikes.h">
+    <entry file="file://$PROJECT_DIR$/main_dude/Whip.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.cpp">
+    <entry file="file://$PROJECT_DIR$/memory/SpritesheetType.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/pspdev/psp/include/GL/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1319" column="42" selection-start-line="1319" selection-start-column="42" selection-end-line="1319" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#2316#2346#0" expanded="true" />
+            <element signature="e#2625#2649#0" expanded="true" />
+            <element signature="e#2682#2708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera/Camera.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/OamManager.cpp">
+    <entry file="file://$PROJECT_DIR$/_interfaces/IBase.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="328">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/OamManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#137#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/OamType.hpp">
+    <entry file="file://$PROJECT_DIR$/collisions/Collisions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/Glove.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/Crate.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorations/SpelunkyTitle.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorations/SpelunkyTitle.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#41#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animations/Bone.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hud/Hud.hpp">
+    <entry file="file://$PROJECT_DIR$/input/InputHandler.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/treasures/TripleGoldbar.cpp">
+    <entry file="file://$PROJECT_DIR$/input/InputHandler.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#41#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="98">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/treasures/TripleGoldbar.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hud/Hud.cpp">
+    <entry file="file://$PROJECT_DIR$/_interfaces/ICollidable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#41#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animations/BloodElement.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animations/BloodElement.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animations/FallPoof.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/Spikes.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/MapTileType.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/LevelRenderingUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/LevelRenderingUtils.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#103#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/PopulatingUtils.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiles/PopulatingUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/GameState.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="251" column="19" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
-          <folding>
-            <element signature="e#41#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/OamUtils.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/OamUtils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/globals/GlobalsDeclarations.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#98#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assembly" />
     <entry file="file://$PROJECT_DIR$/globals/GlobalsDefinitions.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="302">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#124#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/MainDude.cpp">
+    <entry file="file://$PROJECT_DIR$/memory/Texture.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/OamManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/MainDude.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="e#857#874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_dude/Whip.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glchk.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameLoop.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#104#130#0" expanded="true" />
+            <element signature="e#137#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/glchk.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLoop.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre_build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfx_spelunker.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfxcavebg.o">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiles/LevelRenderingUtils.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfxcavebg.raw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gfxcavebg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLoop.o">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="399" selection-start-line="10" selection-start-column="399" selection-end-line="10" selection-end-column="399" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiles/Level.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#114#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/OamUtils.o">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/SpriteUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/SpriteUtils.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+          <folding>
+            <element signature="e#1229#1241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_dude/MainDude.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#284#302#0" expanded="true" />
+            <element signature="e#857#874#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_interfaces/ICollidable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_common/Orientation.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_dude/MainDude.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="728" column="107" lean-forward="true" selection-start-line="728" selection-start-column="107" selection-end-line="728" selection-end-column="107" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creatures/_BaseCreature.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/TimeUtils.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/TimeUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLoop.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="209">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#106#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_dude/GameState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#41#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiles/Level.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="225" selection-start-line="225" selection-end-line="229" selection-end-column="20" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/OamManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#116#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/SpriteInfo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
           </folding>
         </state>
       </provider>

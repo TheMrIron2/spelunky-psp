@@ -28,7 +28,9 @@ namespace time_utils {
             sceRtcGetCurrentTick(&temp_tick);
             u64 diff = temp_tick - *tick_before;
             float delta = ((float) diff / tick_freq);
-            *global::timer = delta;
+            *global::timer = delta * 1000;
+            *tick_before = temp_tick;
+
         }
     }
 
@@ -37,7 +39,7 @@ namespace time_utils {
     }
 
     void start() {
-        tick_before = new u64;
+        tick_before = new u64(0);
     }
 
 }

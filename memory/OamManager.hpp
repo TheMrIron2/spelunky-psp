@@ -7,35 +7,23 @@
 
 #define MAX_SPRITE_NUMBER 128
 
+#include <vector>
 #include "SpritesheetType.hpp"
-#include "OamType.hpp"
 #include "SpriteInfo.h"
-
+#include "Texture.h"
 
 class OAMManager {
 public:
-    OamType oamType;
-    int offset_multiplier;
-    u16 *sprite_address;
-    u16 *palette_address;
-    u16 *oam_address;
 
-    u32 current_oam_id_palette = 0;
-    u32 current_oam_id_tiles = 0;
+    std::vector<SpriteInfo*> oamTable{};
+    std::vector<Texture*> textures{};
 
-    /* Keep track of the available tiles */
-    u16 nextAvailableTileIdx = 0;
+    void initTexture(const unsigned char * imagePtr, int file_width, int file_height, SpritesheetType type);
 
-//    OAMTable *oam;
+    SpriteInfo *initSprite(SpritesheetType type, int width, int height);
 
-    void initOAMTable(u16 *spriteAddress, u16 *paletteAddress, u16 *oam_address, int offset_multiplier, OamType o);
+    void render();
 
-    void updateOAM();
-
-//    SpriteInfo *initSprite(const unsigned short pallette[], int palLen, const unsigned int tiles[], int tilesLen,
-//                           ObjSize size, SpritesheetType spriteType, bool reuse_palette, bool reuse_tiles, LAYER_LEVEL l);
-
-    void clear_sprite_attributes();
 };
 
 

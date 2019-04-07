@@ -83,11 +83,11 @@ void Compass::draw_arrow_to_exit() {
         int diff_x = abs((global::camera->x + 0.5 * SCREEN_WIDTH) - tile_x);
         int diff_y = abs((global::camera->y + 1.5 * SCREEN_HEIGHT) - tile_y);
 
-        _sub_sprite_info->entry->isHidden = false;
+        _sub_sprite_info->isHidden = false;
 
         if (diff_y <= SCREEN_HEIGHT * 0.5 && diff_x <= SCREEN_WIDTH * 0.5) {
 
-            _sub_sprite_info->entry->isHidden = true;
+            _sub_sprite_info->isHidden = true;
 
         } else {
 

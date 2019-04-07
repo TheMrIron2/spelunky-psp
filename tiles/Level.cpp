@@ -94,7 +94,7 @@ void Level::write_tiles_to_map() {
     // The top-left corner will be at (-1, 1).
     // In spelunkyds:
     // top-left corner is 0,0 and right-lower is 1, 1
-    GLCHK(glBindTexture(GL_TEXTURE_2D, 0));
+    GLCHK(glBindTexture(GL_TEXTURE_2D, 1));
 
 
 // first optimization thought -> go through all tiles of the same type, upload once & render all
@@ -140,37 +140,37 @@ void Level::write_tiles_to_map() {
 
             batch.push_back(coordinates[0][0]);
             batch.push_back(coordinates[0][1]);
-            batch.push_back(0 + x);
+            batch.push_back(0 - x);
             batch.push_back(0 + y);
             batch.push_back(0);
 
             batch.push_back(coordinates[1][0]);
             batch.push_back(coordinates[1][1]);
-            batch.push_back(0 + x);
+            batch.push_back(0 - x);
             batch.push_back(1 + y);
             batch.push_back(0);
 
             batch.push_back(coordinates[2][0]);
             batch.push_back(coordinates[2][1]);
-            batch.push_back(1 + x);
+            batch.push_back(1 - x);
             batch.push_back(1 + y);
             batch.push_back(0);
 
             batch.push_back(coordinates[2][0]);
             batch.push_back(coordinates[2][1]);
-            batch.push_back(1 + x);
+            batch.push_back(1 - x);
             batch.push_back(1 + y);
             batch.push_back(0);
 
             batch.push_back(coordinates[3][0]);
             batch.push_back(coordinates[3][1]);
-            batch.push_back(1 + x);
+            batch.push_back(1 - x);
             batch.push_back(0 + y);
             batch.push_back(0);
 
             batch.push_back(coordinates[0][0]);
             batch.push_back(coordinates[0][1]);
-            batch.push_back(0 + x);
+            batch.push_back(0 - x);
             batch.push_back(0 + y);
             batch.push_back(0);
 
@@ -205,7 +205,6 @@ void Level::write_tiles_to_map() {
 extern unsigned char gfxcavebg_start[];
 #define RGBA4444(r, g, b, a)    ((((r) << 8) & 0xf000) | (((g) << 4) & 0x0f00) | (((b)     ) & 0x00f0) | (((a) >> 4) & 0x000f))
 
-
 void Level::set_texture_pointer_to_tile(int type) {
 
     type--;
@@ -224,24 +223,6 @@ void Level::set_texture_pointer_to_tile(int type) {
     // now it stores left-upper corner
     x_offset *= x_unit;
     y_offset *= y_unit;
-
-    // left lower 0 0
-    // left upper 0 1
-    // right upper 1 1
-    // right lower 1 0
-
-
-//    coordinates[0][0] = 0;
-//    coordinates[0][1] = 0;
-//
-//    coordinates[1][0] = 0;
-//    coordinates[1][1] = 1 * y_unit;
-//
-//    coordinates[2][0] = 1 * x_unit;
-//    coordinates[2][1] = 1 * y_unit;
-//
-//    coordinates[3][0] = 1 * x_unit;
-//    coordinates[3][1] = 0;
 
     // left lower  0
     // left upper  1
@@ -274,55 +255,26 @@ void Level::set_texture_pointer_to_tile(int type) {
 void Level::initialise_tiles_from_splash_screen(SplashScreenType splash_type) {
 
     int tab[SPLASH_SCREEN_HEIGHT][SPLASH_SCREEN_WIDTH];
-    bool offset_on_upper_screen = false;
 
-    if (splash_type == ON_LEVEL_DONE_UPPER || splash_type == SCORES_UPPER || splash_type == MAIN_MENU_UPPER) {
-        offset_on_upper_screen = true;
-
-        if (splash_type == MAIN_MENU_UPPER)
-            memcpy(tab, main_menu_upper, sizeof(main_menu_upper));
+    if (splash_type == ON_LEVEL_DONE_UPPER || splash_type == SCORES_UPPER || splash_type == MAIN_MENU) {
+        if (splash_type == MAIN_MENU)
+            memcpy(tab, main_menu, sizeof(main_menu));
         else if (splash_type == ON_LEVEL_DONE_UPPER)
             memcpy(tab, on_level_done_upper, sizeof(on_level_done_upper));
         else if (splash_type == SCORES_UPPER)
             memcpy(tab, scores_upper, sizeof(scores_upper));
     }
 
-    if (splash_type == ON_LEVEL_DONE_LOWER || splash_type == SCORES_LOWER || splash_type == MAIN_MENU_LOWER) {
-
-        if (splash_type == ON_LEVEL_DONE_LOWER)
-            memcpy(tab, on_level_done_lower, sizeof(on_level_done_lower));
-        else if (splash_type == MAIN_MENU_LOWER)
-            memcpy(tab, main_menu_lower, sizeof(main_menu_lower));
-        else if (splash_type == SCORES_LOWER)
-            memcpy(tab, scores_lower, sizeof(scores_lower));
-    }
-
     //Now we initialise every tile in the splash screen and give it a map_index, which describes its location
     for (int tab_y = 0; tab_y < SPLASH_SCREEN_HEIGHT; tab_y++) {
         for (int tab_x = 0; tab_x < SPLASH_SCREEN_WIDTH; tab_x++) {
 
-//            if (tab[tab_y][tab_x] != 0) {
-
-            //offset to the position in current room
-            int room_offset =
-                    static_cast<int>(
-                            2 * ROOM_TILE_HEIGHT_SPLASH_SCREEN *
-                            LINE_WIDTH * ((ROOMS_Y - offset_on_upper_screen) - 1) - 4 * OFFSET_Y);
-            //pos x and y in pixels of the tile in the current room
-            int pos_x = static_cast<int>((tab_x * 2) / 2);
-            //NDS engine has different coordinate system than our room layout map,
-            //so we invert the Y axis by ((ROOMS_Y - offset_on_upper_screen) - 1)
-            int pos_y = static_cast<int>(
-                    tab_y + ROOM_TILE_HEIGHT_SPLASH_SCREEN * ((ROOMS_Y - offset_on_upper_screen) - 1) - 4);
-
-            map_tiles[pos_x][pos_y]->match_tile(static_cast<MapTileType>(tab[tab_y][tab_x]));
-            room_offset + (tab_x * 2) + (LINE_WIDTH + (tab_y * LINE_WIDTH * 2)) + 1;
-            map_tiles[pos_x][pos_y]->x = pos_x;
-            map_tiles[pos_x][pos_y]->y = pos_y;
+            map_tiles[tab_x][tab_y]->match_tile(static_cast<MapTileType>(tab[tab_y][tab_x]));
+            map_tiles[tab_x][tab_y]->x = tab_x;
+            map_tiles[tab_x][tab_y]->y = tab_y;
 
             if (tab[tab_y][tab_x] != 0)
-                map_tiles[pos_x][pos_y]->exists = true;
-//            }
+                map_tiles[tab_x][tab_y]->exists = true;
         }
     }
 }
@@ -449,6 +401,7 @@ void Level::clean_map_layout() {
 }
 
 void Level::upload_tilesheet() {
+    GLCHK(glBindTexture(GL_TEXTURE_2D, 1));
 // 32 x 512 cavebg spritesheet size
     int offset = 0;
     unsigned int index = 0;
@@ -465,6 +418,5 @@ void Level::upload_tilesheet() {
         index++;
     }
     GLCHK(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 32, 512, 0, GL_RGB, GL_UNSIGNED_SHORT_4_4_4_4, tex16));
-
     delete[] tex16;
 }

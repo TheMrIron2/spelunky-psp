@@ -17,6 +17,7 @@ namespace global {
     MainDude *main_dude;
     Hud *hud;
     GameState *game_state;
+    OAMManager *oam_manager;
 
     std::vector<BaseCreature *> creatures;
     std::vector<BaseCreature *> creatures_to_add;
@@ -40,8 +41,8 @@ namespace global {
         timer = new float;
         clean_unused_oam_timer = 0;
         camera = new Camera();
+        oam_manager = new OAMManager();
         current_level = new Level(camera);
-        main_dude = new MainDude(224, 300);
         hud = new Hud();
         game_state = new GameState();
 

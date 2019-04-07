@@ -442,6 +442,9 @@ void MainDude::update_creature_specific() {
 
 void MainDude::init_sprites() {
 
+
+    main_sprite_info = global::oam_manager->initSprite(SpritesheetType::MAIN_DUDE, 16, 16);
+
 //    delete_sprites();
 
 //    main_sprite_info = global::main_oam_manager->initSprite(gfx_spelunkerPal, gfx_spelunkerPalLen, nullptr,
@@ -659,91 +662,85 @@ void MainDude::spawn_carried_items() {
 
 void MainDude::set_sprite_crawling() {
 
-//    if (sprite_state == Orientation::LEFT)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size,
-//                                           animFrame + 24);
-//    else
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size,
-//                                           animFrame + 33);
+    if (sprite_state == Orientation::LEFT)
+        main_sprite_info->tile = animFrame + 24;
+    else
+        main_sprite_info->tile = animFrame + 33;
 
 }
 
 void MainDude::set_sprite_hanging_on_tile() {
 
-//    if (hanging_on_tile_right)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 13);
-//    else if (hanging_on_tile_left)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 12);
+    if (hanging_on_tile_right)
+        main_sprite_info->tile = 13;
+    else if (hanging_on_tile_left)
+        main_sprite_info->tile = animFrame + 12;
 }
 
 void MainDude::set_sprite_whiping() {
-
-//    if (sprite_state == Orientation::LEFT)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 56 + animFrame);
-//    else if (sprite_state == Orientation::RIGHT)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 62 + animFrame);
-
+    if (sprite_state == Orientation::LEFT)
+        main_sprite_info->tile = animFrame + 56;
+    else if (sprite_state == Orientation::RIGHT)
+        main_sprite_info->tile = animFrame + 62;
 }
 
 void MainDude::set_sprite_pushing() {
 
-//    if (pushing_left)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 42 + animFrame);
-//    else
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 49 + animFrame);
+    if (pushing_left)
+        main_sprite_info->tile = animFrame + 42;
+    else
+        main_sprite_info->tile = animFrame + 49;
 }
 
 void MainDude::set_sprite_stunned() {
 
-//    if (animFrame > 4)
-//        animFrame = 0;
-//
-//    frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 18 + animFrame);
+    if (animFrame > 4)
+        animFrame = 0;
+
+    main_sprite_info->tile = animFrame + 18;
 }
 
 void MainDude::set_sprite_climbing() {
 
-//    if (started_climbing_rope) {
-//
-//        if (animFrame >= 12)
-//            animFrame = 0;
-//
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 74 + animFrame);
-//    } else if (started_climbing_ladder) {
-//
-//        if (animFrame >= 6)
-//            animFrame = 0;
-//
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 96 + animFrame);
-//    }
+    if (started_climbing_rope) {
+
+        if (animFrame >= 12)
+            animFrame = 0;
+
+        main_sprite_info->tile = animFrame + 74;
+    } else if (started_climbing_ladder) {
+
+        if (animFrame >= 6)
+            animFrame = 0;
+
+        main_sprite_info->tile = animFrame + 96;
+    }
 
 }
 
 void MainDude::set_sprite_dead() {
-//    if (_bottom_collision)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 17);
-//    else
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 16);
+    if (_bottom_collision)
+        main_sprite_info->tile = 17;
+    else
+        main_sprite_info->tile = 16;
 }
 
 void MainDude::set_sprite_walking_when_in_air() {
-//    frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, static_cast<u16>(sprite_state) * 6);
+    main_sprite_info->tile = animFrame + (static_cast<u16>(sprite_state) * MAIN_DUDE_FRAMES_PER_ANIMATION);
 }
 
 void MainDude::set_sprite_falling() {
 
-//    if (fabs(_x_speed) != 0)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size,
-//                                           animFrame +
-//                                           (static_cast<u16>(sprite_state) * MAIN_DUDE_FRAMES_PER_ANIMATION));
-//    else if (sprite_state == Orientation::LEFT)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 14);
-//    else if (sprite_state == Orientation::RIGHT)
-//        frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 15);
+    if (fabs(_x_speed) != 0)
+        main_sprite_info->tile = animFrame + (static_cast<u16>(sprite_state) * MAIN_DUDE_FRAMES_PER_ANIMATION);
+    else if (sprite_state == Orientation::LEFT)
+        main_sprite_info->tile = 14;
+    else if (sprite_state == Orientation::RIGHT)
+        main_sprite_info->tile = 15;
 }
 
 void MainDude::set_sprite_exiting_level() {
-//    frameGfx = sprite_utils::get_frame((u8 *) gfx_spelunkerTiles, _sprite_size, 80 + animFrame);
+    main_sprite_info->tile = 14 + animFrame;
 }
 
 void MainDude::apply_blinking_on_damage() {
@@ -751,9 +748,9 @@ void MainDude::apply_blinking_on_damage() {
     if (!global::game_state->levels_transition_screen) {
 
         if (time_since_last_damage < MAIN_DUDE_DAMAGE_PROTECTION_TIME) {
-            sprite_utils::set_visibility(((int) time_since_last_damage % 100) >= 50, main_sprite_info, sub_sprite_info);
+            sprite_utils::set_visibility(((int) time_since_last_damage % 100) >= 50, main_sprite_info);
         } else
-            sprite_utils::set_visibility(true, main_sprite_info, sub_sprite_info);
+            sprite_utils::set_visibility(true, main_sprite_info);
 
     }
 }
@@ -857,15 +854,10 @@ void MainDude::match_animation() {
     } else {
         set_sprite_falling();
     }
-
-    sprite_utils::update_frame(frameGfx, _sprite_size, main_sprite_info, sub_sprite_info);
 }
 
 void MainDude::update_sprites_position() {
-    int main_x, main_y, sub_x, sub_y;
-    get_x_y_viewported(&main_x, &main_y, &sub_x, &sub_y);
-    sprite_utils::set_entry_xy(main_sprite_info, static_cast<u16>(main_x), static_cast<u16>(main_y));
-    sprite_utils::set_entry_xy(sub_sprite_info, static_cast<u16>(sub_x), static_cast<u16>(sub_y));
+    sprite_utils::set_entry_xy(main_sprite_info, static_cast<u16>(_x), static_cast<u16>(_y));
 }
 
 bool MainDude::can_apply_gravity() const {
@@ -894,7 +886,5 @@ void MainDude::set_dead() {
 
 void MainDude::delete_sprites() {
     delete main_sprite_info;
-    delete sub_sprite_info;
     main_sprite_info = nullptr;
-    sub_sprite_info = nullptr;
 }

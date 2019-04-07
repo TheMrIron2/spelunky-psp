@@ -147,7 +147,6 @@ public:
 
 
     SpriteInfo *main_sprite_info{};
-    SpriteInfo *sub_sprite_info{};
 
     int current_x_in_tiles{};
     int current_y_in_tiles{};

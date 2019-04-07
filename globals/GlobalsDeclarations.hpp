@@ -34,6 +34,7 @@ namespace global {
     extern MainDude *main_dude;
     extern Hud *hud;
     extern GameState *game_state;
+    extern OAMManager *oam_manager;
 
     extern std::vector<BaseCreature *> creatures;
     extern std::vector<BaseCreature *> creatures_to_add;

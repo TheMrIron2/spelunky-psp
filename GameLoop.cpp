@@ -64,21 +64,37 @@ void gameloop::run() {
 
     time_utils::update_ms_since_last_frame();
 
+    global::input_handler->updateInput();
+    if (global::input_handler->a_key_down)global::camera->x += 1.0 / 16;
+    if (global::input_handler->y_key_down)global::camera->x -= 1.0 / 16;
+    if (global::input_handler->x_key_down)global::camera->y -= 1.0 / 16;
+    if (global::input_handler->b_key_down)global::camera->y += 1.0 / 16;
+
+//    if (global::input_handler->left_key_held)global::main_dude->_x_speed -= 1;
+//    if (global::input_handler->right_key_held)global::main_dude->_x_speed += 1;
+//    if (global::input_handler->up_key_held)global::main_dude->_y_speed += 1;
+//    if (global::input_handler->down_key_held)global::main_dude->_y_speed -= 1;
+
+    global::main_dude->_y_speed = 0;
+    global::main_dude->update();
+    global::main_dude->whip->update();
+    global::main_dude->handle_key_input();
+
     GLCHK(glShadeModel(GL_SMOOTH));
     GLCHK(glClear(GL_COLOR_BUFFER_BIT));
     GLCHK(glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE));
     GLCHK(glEnable(GL_BLEND));
     GLCHK(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
-    global::input_handler->updateInput();
     global::current_level->write_tiles_to_map();
+    global::oam_manager->render();
+
     glutSwapBuffers();
     glutPostRedisplay();
 
-    if(global::input_handler->a_key_down)global::camera->x += 1.0 / 16;
-    if(global::input_handler->y_key_down)global::camera->x -= 1.0 / 16;
-    if(global::input_handler->x_key_down)global::camera->y -= 1.0 / 16;
-    if(global::input_handler->b_key_down)global::camera->y += 1.0 / 16;
+    printf("%i %i\n", global::main_dude->_x, global::main_dude->_y);
+//    printf("%f %f\n", global::camera->x, global::camera->y);
+
 
 //
 //

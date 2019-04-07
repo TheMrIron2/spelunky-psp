@@ -183,8 +183,7 @@ void GameState::handle_changing_screens() {
                 sound::stop_cave_music();
                 sound::start_menu_music();
 
-                global::current_level->initialise_tiles_from_splash_screen(SplashScreenType::MAIN_MENU_UPPER);
-                global::current_level->initialise_tiles_from_splash_screen(SplashScreenType::MAIN_MENU_LOWER);
+                global::current_level->initialise_tiles_from_splash_screen(SplashScreenType::MAIN_MENU);
 //                set_position_to(MapTileType::ENTRANCE);
                 global::main_dude->_x = 113;
                 global::main_dude->_y = 288;
@@ -289,8 +288,7 @@ void GameState::handle_changing_screens() {
 
     } else if (global::main_dude->animFrame >= 16 && global::game_state->splash_screen) {
 
-        global::main_dude->main_sprite_info->entry->isHidden = true;
-        global::main_dude->sub_sprite_info->entry->isHidden = true;
+        global::main_dude->main_sprite_info->isHidden = true;
         global::input_handler->stop_handling = false;
 
         if (global::input_handler->y_key_down) {

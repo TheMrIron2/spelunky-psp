@@ -45,7 +45,8 @@ public:
     virtual ~BaseCreature() = default;
 
     inline void update() {
-        if (can_update_collidable()) update_collidable();
+        if (can_update_collidable())
+            update_collidable();
         update_creature_specific();
     };
 

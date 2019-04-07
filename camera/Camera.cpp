@@ -11,19 +11,10 @@
 #include "../globals/GlobalsDeclarations.hpp"
 
 Camera::Camera() {
-    // center it
-    float tiles_w = SCREEN_WIDTH / 16; //30
-    float tiles_h = SCREEN_HEIGHT / 16; //17
-
-    x -= (tiles_w / 2) - 1;
-    y -= ceil(tiles_h / 2) - 1;
-//
-    //init pos is:
-    // -14, -8
+    // origin position for start screen
+    x = 13.937500f;
+    y = 8.437500f;
 }
-
-//
-
 
 constexpr u16 MAP_WIDTH = 512;
 constexpr u16 MAP_HEIGHT = 512;

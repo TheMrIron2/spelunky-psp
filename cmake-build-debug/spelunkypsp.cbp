@@ -501,9 +501,6 @@
 		<Unit filename="/home/dbeef/spelunky-psp/memory/OamManager.hpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
-		<Unit filename="/home/dbeef/spelunky-psp/memory/OamType.hpp">
-			<Option target="spelunkypsp"/>
-		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/memory/OamUtils.cpp">
 			<Option target="spelunkypsp"/>
 		</Unit>
@@ -523,6 +520,9 @@
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/memory/SpritesheetType.hpp">
+			<Option target="spelunkypsp"/>
+		</Unit>
+		<Unit filename="/home/dbeef/spelunky-psp/memory/Texture.h">
 			<Option target="spelunkypsp"/>
 		</Unit>
 		<Unit filename="/home/dbeef/spelunky-psp/rooms/AltarRoom.hpp">

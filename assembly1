@@ -1,0 +1,4 @@
+.data
+.global gfx_spelunker_start
+gfx_spelunker_start:
+	.incbin "gfx_spelunker.raw"

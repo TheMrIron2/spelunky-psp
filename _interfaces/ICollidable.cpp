@@ -10,18 +10,15 @@
 #include "../tiles/LevelRenderingUtils.hpp"
 
 void ICollidable::update_collisions_with_map(int x_current_pos_in_tiles, int y_current_pos_in_tiles) {
-    Collisions::getNeighboringTiles(global::current_level->map_tiles, x_current_pos_in_tiles,
-                                    y_current_pos_in_tiles, _neighboring_tiles);
 
-    _bottom_collision = Collisions::checkBottomCollision(_neighboring_tiles, &_x, &_y, &_y_speed, _physical_width,
-                                                         _physical_height, _bouncing_factor_y);
-    _left_collision = Collisions::checkLeftCollision(_neighboring_tiles, &_x, &_y, &_x_speed, _physical_width,
-                                                     _physical_height, _bouncing_factor_x);
-    _right_collision = Collisions::checkRightCollision(_neighboring_tiles, &_x, &_y, &_x_speed, _physical_width,
-                                                       _physical_height, _bouncing_factor_x);
-    _upper_collision = Collisions::checkUpperCollision(_neighboring_tiles, &_x, &_y, &_y_speed, _physical_width,
-                                                       _bouncing_factor_y);
+    Collisions::getNeighboringTiles(global::current_level->map_tiles, x_current_pos_in_tiles, y_current_pos_in_tiles, _neighboring_tiles);
 
+//    _bottom_collision = Collisions::checkBottomCollision(_neighboring_tiles, &_x, &_y, &_y_speed, _physical_width, _physical_height, _bouncing_factor_y);
+//    _left_collision = Collisions::checkLeftCollision(_neighboring_tiles, &_x, &_y, &_x_speed, _physical_width, _physical_height, _bouncing_factor_x);
+//    _right_collision = Collisions::checkRightCollision(_neighboring_tiles, &_x, &_y, &_x_speed, _physical_width, _physical_height, _bouncing_factor_x);
+//    _upper_collision = Collisions::checkUpperCollision(_neighboring_tiles, &_x, &_y, &_y_speed, _physical_width, _bouncing_factor_y);
+
+    _bottom_collision = true;
     _map_collisions_checked = true;
     _current_x_in_tiles = x_current_pos_in_tiles;
     _current_y_in_tiles = y_current_pos_in_tiles;
@@ -56,8 +53,8 @@ void ICollidable::update_position() {
         yy = floor_div(_y + 0.5 * _physical_height, TILE_H);
 
         if (old_xx != xx || old_yy != yy || _physical_width <= 8 || _physical_height <= 8) {
-            if (xx < 31 && yy < 31)
-                update_collisions_with_map(xx, yy);
+//            if (xx < 31 && yy < 31)
+//                update_collisions_with_map(xx, yy);
         }
 
         old_xx = xx;
@@ -215,6 +212,6 @@ void ICollidable::deal_damage_main_dude_on_collision(int dmg_to_apply) const {
         if (global::hud->hearts <= 0) {
             global::main_dude->set_dead();
         } else
-            mmEffect(SFX_XHIT);
+                mmEffect(SFX_XHIT);
     }
 }
